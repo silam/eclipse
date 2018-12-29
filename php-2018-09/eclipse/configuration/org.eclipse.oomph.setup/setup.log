@@ -1,0 +1,1220 @@
+[2018-09-24 13:45:11] Executing bootstrap tasks
+[2018-09-24 13:45:11] Java(TM) SE Runtime Environment 1.8.0_181-b13
+[2018-09-24 13:45:11] Product org.eclipse.products.epp.package.php.2018-09
+[2018-09-24 13:45:11] Bundle org.eclipse.oomph.setup 1.10.0.v20180828-0705, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2018-09-24 13:45:11] Bundle org.eclipse.oomph.setup.core 1.10.0.v20180714-0556, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2018-09-24 13:45:11] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3652, branch=fddd6edb5a235aea831fecf04547579693a78a4e
+[2018-09-24 13:45:11] Performing P2 Director (Eclipse IDE for PHP Developers (2018-09))
+[2018-09-24 13:45:11] Offline = false
+[2018-09-24 13:45:11] Mirrors = true
+[2018-09-24 13:45:11] Resolving 23 requirements from 3 repositories to C:\Users\slam1\eclipse\php-2018-09\eclipse
+[2018-09-24 13:45:11] Requirement epp.package.php [4.9.0,4.10.0)
+[2018-09-24 13:45:11] Requirement org.eclipse.platform.feature.group [4.9.0,4.10.0)
+[2018-09-24 13:45:11] Requirement org.eclipse.rcp.feature.group [4.9.0,4.10.0)
+[2018-09-24 13:45:11] Requirement org.eclipse.egit.feature.group
+[2018-09-24 13:45:11] Requirement org.eclipse.egit.gitflow.feature.feature.group
+[2018-09-24 13:45:11] Requirement org.eclipse.egit.mylyn.feature.group
+[2018-09-24 13:45:11] Requirement org.eclipse.epp.mpc.feature.group
+[2018-09-24 13:45:11] Requirement org.eclipse.mylyn.bugzilla_feature.feature.group
+[2018-09-24 13:45:11] Requirement org.eclipse.mylyn.context_feature.feature.group
+[2018-09-24 13:45:11] Requirement org.eclipse.mylyn.github.feature.feature.group
+[2018-09-24 13:45:11] Requirement org.eclipse.mylyn.ide_feature.feature.group
+[2018-09-24 13:45:11] Requirement org.eclipse.mylyn.wikitext_feature.feature.group
+[2018-09-24 13:45:11] Requirement org.eclipse.mylyn_feature.feature.group
+[2018-09-24 13:45:11] Requirement org.eclipse.php.composer.feature.group
+[2018-09-24 13:45:11] Requirement org.eclipse.php.feature.group
+[2018-09-24 13:45:11] Requirement org.eclipse.php.mylyn.feature.group
+[2018-09-24 13:45:11] Requirement org.eclipse.php.phpunit.feature.feature.group
+[2018-09-24 13:45:11] Requirement org.eclipse.php.profiler.feature.group
+[2018-09-24 13:45:11] Requirement org.eclipse.php.rdt.sync.feature.group
+[2018-09-24 13:45:11] Requirement org.eclipse.tm.terminal.feature.feature.group
+[2018-09-24 13:45:11] Requirement org.eclipse.wst.jsdt.feature.feature.group
+[2018-09-24 13:45:11] Requirement org.eclipse.wst.xml_ui.feature.feature.group
+[2018-09-24 13:45:11] Requirement org.eclipse.oomph.setup.feature.group
+[2018-09-24 13:45:11] Repository http://download.eclipse.org/technology/epp/packages/2018-09
+[2018-09-24 13:45:11] Repository http://download.eclipse.org/releases/2018-09/201809191002
+[2018-09-24 13:45:11] Repository http://download.eclipse.org/oomph/updates/milestone/latest
+[2018-09-24 13:45:13] Calculating requirements and dependencies.
+[2018-09-24 13:45:18] Computing prerequisite plan
+[2018-09-24 13:45:21] Collecting 3 artifacts from http://download.eclipse.org/technology/epp/packages/2018-09
+[2018-09-24 13:45:21] Downloading org.eclipse.epp.package.php.feature
+[2018-09-24 13:45:21] Downloading org.eclipse.epp.package.php
+[2018-09-24 13:45:21] Downloading epp.package.php.executable.win32.win32.x86_64
+[2018-09-24 13:45:21] Fetching org.eclipse.epp.package.php.feature_4.9.0.20180917-1800.jar from http://download.eclipse.org/technology/epp/packages/2018-09/features/ (24.48kB)
+[2018-09-24 13:45:21] Fetching org.eclipse.epp.package.php_4.9.0.20180917-1800.jar.pack.gz from http://download.eclipse.org/technology/epp/packages/2018-09/plugins/ (52.09kB)
+[2018-09-24 13:45:22] Fetching epp.package.php.executable.win32.win32.x86_64_4.9.0.20180917-1800 from http://download.eclipse.org/technology/epp/packages/2018-09/binary/ (141.16kB)
+[2018-09-24 13:45:23] Fetching epp.package.php.executable.win32.win32.x86_64_4.9.0.20180917-1800 from http://download.eclipse.org/technology/epp/packages/2018-09/binary/
+[2018-09-24 13:45:24] Mirrored 3 artifacts from http://download.eclipse.org/technology/epp/packages/2018-09/ at 59kb/s
+[2018-09-24 13:45:24] Collected 3 artifacts for http://download.eclipse.org/technology/epp/packages/2018-09 in 3.189s
+[2018-09-24 13:45:24] Collecting 184 artifacts from http://download.eclipse.org/releases/2018-09/201809191002
+[2018-09-24 13:45:25] Downloading org.eclipse.platform_root
+[2018-09-24 13:45:25] Downloading org.eclipse.dltk.core_root
+[2018-09-24 13:45:25] Downloading org.eclipse.wst.json.npm.core
+[2018-09-24 13:45:25] Downloading org.eclipse.dltk.annotations
+[2018-09-24 13:45:25] Downloading org.eclipse.dltk.mylyn_root
+[2018-09-24 13:45:25] Downloading org.eclipse.wst.jsdt.js.node.common
+[2018-09-24 13:45:25] Downloading org.eclipse.wst.json.npm.ui
+[2018-09-24 13:45:25] Downloading org.eclipse.wst.web.ui.infopop
+[2018-09-24 13:45:25] Downloading org.eclipse.wst.html.ui.infopop
+[2018-09-24 13:45:25] Downloading org.eclipse.wst.json.eslint.core
+[2018-09-24 13:45:25] Downloading org.eclipse.wst.jsdt.chromium.wip.eclipse
+[2018-09-24 13:45:25] Fetching org.eclipse.wst.jsdt.js.node.common_1.0.0.v201605131737.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (11.68kB)
+[2018-09-24 13:45:25] Fetching org.eclipse.wst.json.eslint.core_1.0.0.v201711201732.jar.pack.gz from http://mirror.csclub.uwaterloo.ca/eclipse/releases/2018-09/201809191002/plugins/ (8.04kB)
+[2018-09-24 13:45:25] Fetching org.eclipse.dltk.annotations_5.10.0.201808292040.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/plugins/ (7.75kB)
+[2018-09-24 13:45:25] Fetching org.eclipse.wst.html.ui.infopop_1.0.201.v201711201733.jar.pack.gz from http://mirror.cc.vt.edu/pub/eclipse/releases/2018-09/201809191002/plugins/ (9.93kB)
+[2018-09-24 13:45:25] Fetching org.eclipse.dltk.annotations_5.10.0.201808292040.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/plugins/ (7.75kB)
+[2018-09-24 13:45:25] Fetching org.eclipse.wst.html.ui.infopop_1.0.201.v201711201733.jar.pack.gz from http://mirror.cc.vt.edu/pub/eclipse/releases/2018-09/201809191002/plugins/ (9.93kB)
+[2018-09-24 13:45:25] Fetching org.eclipse.dltk.core_root_5.10.0.201808292040 from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/binary/ (7.54kB)
+[2018-09-24 13:45:25] Fetching org.eclipse.wst.jsdt.chromium.wip.eclipse_0.5.200.v201610212001.jar.pack.gz from http://mirrors.syringanetworks.net/eclipse/releases/2018-09/201809191002/plugins/ (8.63kB)
+[2018-09-24 13:45:25] Fetching org.eclipse.dltk.mylyn_root_5.10.0.201808292040 from http://ftp.osuosl.org/pub/eclipse/releases/2018-09/201809191002/binary/ (7.54kB)
+[2018-09-24 13:45:25] Fetching org.eclipse.wst.json.npm.ui_1.0.100.v201807090620.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/2018-09/201809191002/plugins/ (11.45kB)
+[2018-09-24 13:45:25] Downloading org.eclipse.wst.json.bower.core
+[2018-09-24 13:45:25] Fetching org.eclipse.wst.json.npm.core_1.0.0.v201711201732.jar.pack.gz from http://www.gtlib.gatech.edu/pub/eclipse/releases/2018-09/201809191002/plugins/ (8.02kB)
+[2018-09-24 13:45:26] Downloading org.eclipse.wst.json.jshint.core
+[2018-09-24 13:45:26] Fetching org.eclipse.wst.web.ui.infopop_1.0.300.v201711222247.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/2018-09/201809191002/plugins/ (8.3kB)
+[2018-09-24 13:45:26] Downloading org.eclipse.wst.jsdt.chromium.debug.jsdtbridge
+[2018-09-24 13:45:26] Downloading org.eclipse.php.rdt.sync.ui
+[2018-09-24 13:45:26] Downloading org.eclipse.dltk.core.index
+[2018-09-24 13:45:26] Downloading org.eclipse.wst.jsdt.chromium.debug
+[2018-09-24 13:45:26] Downloading org.eclipse.cdt.core.win32
+[2018-09-24 13:45:26] Fetching org.eclipse.wst.jsdt.chromium.debug_0.4.0.v201605131737.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (10.33kB)
+[2018-09-24 13:45:26] Fetching org.eclipse.cdt.core.win32_5.4.1.201809121146.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (9.04kB)
+[2018-09-24 13:45:26] Fetching org.eclipse.dltk.core.index_5.10.0.201808292040.jar.pack.gz from http://ftp.fau.de/eclipse/releases/2018-09/201809191002/plugins/ (12.85kB)
+[2018-09-24 13:45:26] Fetching org.eclipse.wst.jsdt.chromium.debug.jsdtbridge_0.5.200.v201610211901.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/2018-09/201809191002/plugins/ (11.88kB)
+[2018-09-24 13:45:26] Fetching org.eclipse.php.rdt.sync.ui_6.1.0.201808281524.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/2018-09/201809191002/plugins/ (12.42kB)
+[2018-09-24 13:45:26] Downloading org.eclipse.egit.gitflow.feature
+[2018-09-24 13:45:26] Fetching org.eclipse.egit.gitflow.feature_5.1.0.201809111528-r.jar from http://mirrors.syringanetworks.net/eclipse/releases/2018-09/201809191002/features/ (13.06kB)
+[2018-09-24 13:45:27] Downloading org.eclipse.mylyn.github.feature
+[2018-09-24 13:45:27] Downloading org.eclipse.wst.json.schemaprocessor
+[2018-09-24 13:45:27] Fetching org.eclipse.mylyn.github.feature_5.1.0.201809111528-r.jar from http://mirrors.syringanetworks.net/eclipse/releases/2018-09/201809191002/features/ (13.14kB)
+[2018-09-24 13:45:27] Downloading org.eclipse.wst.json.jshint.ui
+[2018-09-24 13:45:27] Downloading org.eclipse.wst.json.eslint.ui
+[2018-09-24 13:45:27] Fetching org.eclipse.wst.json.schemaprocessor_1.0.200.v201711201732.jar.pack.gz from http://mirrors.syringanetworks.net/eclipse/releases/2018-09/201809191002/plugins/ (8.86kB)
+[2018-09-24 13:45:27] Downloading org.eclipse.wst.jsdt.debug.transport
+[2018-09-24 13:45:27] Fetching org.eclipse.wst.json.jshint.ui_1.0.100.v201807090620.jar.pack.gz from http://mirrors.syringanetworks.net/eclipse/releases/2018-09/201809191002/plugins/ (9.31kB)
+[2018-09-24 13:45:27] Downloading org.eclipse.dltk
+[2018-09-24 13:45:27] Downloading org.eclipse.wst.server.ui.infopop
+[2018-09-24 13:45:27] Fetching org.eclipse.dltk.mylyn_root_5.10.0.201808292040 from http://ftp.osuosl.org/pub/eclipse/releases/2018-09/201809191002/binary/
+[2018-09-24 13:45:27] Fetching org.eclipse.dltk_5.10.0.201808292040.jar.pack.gz from http://mirrors.syringanetworks.net/eclipse/releases/2018-09/201809191002/plugins/ (12.83kB)
+[2018-09-24 13:45:27] Fetching org.eclipse.wst.json.eslint.ui_1.0.100.v201807090620.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (9.32kB)
+[2018-09-24 13:45:27] Fetching org.eclipse.wst.server.ui.infopop_1.1.200.v201309182117.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (11.92kB)
+[2018-09-24 13:45:27] Fetching org.eclipse.wst.json.jshint.core_1.0.0.v201711201732.jar.pack.gz from http://mirror.switch.ch/eclipse/releases/2018-09/201809191002/plugins/ (8.05kB)
+[2018-09-24 13:45:27] Downloading org.eclipse.php.mylyn.ui
+[2018-09-24 13:45:28] Fetching org.eclipse.php.mylyn.ui_6.1.0.201808281524.jar.pack.gz from http://mirror.cc.vt.edu/pub/eclipse/releases/2018-09/201809191002/plugins/ (16.5kB)
+[2018-09-24 13:45:28] Downloading org.eclipse.tm.terminal.view.feature
+[2018-09-24 13:45:28] Fetching org.eclipse.wst.json.bower.core_1.0.0.v201711201732.jar.pack.gz from http://mirrors.ibiblio.org/eclipse/releases/2018-09/201809191002/plugins/ (8.07kB)
+[2018-09-24 13:45:28] Downloading org.eclipse.wst.jsdt.chromium.debug.feature
+[2018-09-24 13:45:28] Downloading org.eclipse.wst.web_ui.feature
+[2018-09-24 13:45:28] Fetching org.eclipse.tm.terminal.view.feature_4.5.0.201809101428.jar from http://mirror.cc.vt.edu/pub/eclipse/releases/2018-09/201809191002/features/ (17.87kB)
+[2018-09-24 13:45:28] Downloading org.eclipse.tm.terminal.connector.local.feature
+[2018-09-24 13:45:28] Downloading org.eclipse.tm.terminal.control.feature
+[2018-09-24 13:45:28] Downloading org.eclipse.tm.terminal.feature
+[2018-09-24 13:45:28] Downloading org.eclipse.tm.terminal.connector.telnet.feature
+[2018-09-24 13:45:28] Fetching org.eclipse.tm.terminal.feature_4.5.0.201809101428.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/features/ (18.06kB)
+[2018-09-24 13:45:28] Downloading org.eclipse.tm.terminal.connector.ssh.feature
+[2018-09-24 13:45:29] Fetching org.eclipse.tm.terminal.connector.ssh.feature_4.5.0.201809101428.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/features/ (18.1kB)
+[2018-09-24 13:45:29] Downloading org.eclipse.wst.jsdt.feature
+[2018-09-24 13:45:29] Downloading org.eclipse.wst.jsdt.nodejs.feature
+[2018-09-24 13:45:29] Fetching org.eclipse.wst.jsdt.feature_2.1.1.v201804042202.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/features/ (18.17kB)
+[2018-09-24 13:45:29] Fetching org.eclipse.wst.jsdt.nodejs.feature_1.1.0.v201803202007.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/features/ (18.45kB)
+[2018-09-24 13:45:29] Downloading org.eclipse.dltk.logconsole.ui
+[2018-09-24 13:45:29] Downloading org.eclipse.php.phpunit.feature
+[2018-09-24 13:45:29] Fetching org.eclipse.dltk.logconsole.ui_5.10.0.201808292040.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/plugins/ (11.57kB)
+[2018-09-24 13:45:29] Fetching org.eclipse.php.phpunit.feature_6.1.0.201808281524.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/features/ (20.05kB)
+[2018-09-24 13:45:29] Downloading org.eclipse.php.mylyn
+[2018-09-24 13:45:29] Downloading org.eclipse.php.profiler
+[2018-09-24 13:45:29] Fetching org.eclipse.php.mylyn_6.1.0.201808281524.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/features/ (20.06kB)
+[2018-09-24 13:45:29] Fetching org.eclipse.php.profiler_6.1.0.201808281524.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/features/ (20.12kB)
+[2018-09-24 13:45:30] Fetching org.eclipse.egit.gitflow.feature_5.1.0.201809111528-r.jar from http://mirrors.syringanetworks.net/eclipse/releases/2018-09/201809191002/features/
+[2018-09-24 13:45:30] Downloading org.eclipse.php.composer
+[2018-09-24 13:45:30] Downloading org.eclipse.php.rdt.sync
+[2018-09-24 13:45:30] Fetching org.eclipse.php.composer_6.1.0.201808281524.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/features/ (20.12kB)
+[2018-09-24 13:45:30] Downloading org.eclipse.wst.jsdt.js.common
+[2018-09-24 13:45:30] Fetching org.eclipse.php.rdt.sync_6.1.0.201808281524.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/features/ (20.13kB)
+[2018-09-24 13:45:30] Fetching org.eclipse.wst.jsdt.js.common_1.0.200.v201610211901.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/plugins/ (20.18kB)
+[2018-09-24 13:45:30] Fetching org.eclipse.tm.terminal.connector.telnet.feature_4.5.0.201809101428.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/features/ (18.06kB)
+[2018-09-24 13:45:30] Downloading org.eclipse.php
+[2018-09-24 13:45:30] Fetching org.eclipse.wst.jsdt.debug.transport_1.0.300.v201502261613.jar.pack.gz from http://mirrors.syringanetworks.net/eclipse/releases/2018-09/201809191002/plugins/ (14.6kB)
+[2018-09-24 13:45:30] Downloading org.eclipse.wst.json.bower.ui
+[2018-09-24 13:45:30] Downloading org.eclipse.php.debug.daemon
+[2018-09-24 13:45:30] Fetching org.eclipse.php_6.1.0.201808281524.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/features/ (20.64kB)
+[2018-09-24 13:45:30] Downloading org.eclipse.wst.jsdt.manipulation
+[2018-09-24 13:45:30] Fetching org.eclipse.wst.json.bower.ui_1.0.100.v201807090620.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/plugins/ (13.85kB)
+[2018-09-24 13:45:30] Fetching org.eclipse.php.debug.daemon_6.1.0.201808281524.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/plugins/ (11.97kB)
+[2018-09-24 13:45:30] Downloading org.eclipse.wst.jsdt.chromium.debug.js
+[2018-09-24 13:45:30] Fetching org.eclipse.dltk_5.10.0.201808292040.jar.pack.gz from http://mirrors.syringanetworks.net/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:45:30] Fetching org.eclipse.wst.jsdt.chromium.debug.js_0.1.200.v201610211901.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/plugins/ (21.49kB)
+[2018-09-24 13:45:30] Downloading org.eclipse.dltk.logconsole
+[2018-09-24 13:45:30] Downloading org.eclipse.json
+[2018-09-24 13:45:30] Downloading org.eclipse.rcp_root
+[2018-09-24 13:45:30] Downloading org.eclipse.wst.jsdt.js.npm
+[2018-09-24 13:45:30] Downloading org.eclipse.wst.jsdt.support.firefox
+[2018-09-24 13:45:31] Fetching org.eclipse.wst.jsdt.js.npm_1.0.300.v201711211802.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (25.75kB)
+[2018-09-24 13:45:31] Downloading org.eclipse.dltk.core.index.lucene
+[2018-09-24 13:45:31] Fetching org.eclipse.wst.jsdt.support.firefox_1.0.501.v201602241911.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (25.79kB)
+[2018-09-24 13:45:31] Downloading org.eclipse.remote.console
+[2018-09-24 13:45:31] Downloading org.eclipse.tm.terminal.connector.local
+[2018-09-24 13:45:31] Fetching org.eclipse.remote.console_1.2.0.201803121903.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (26.37kB)
+[2018-09-24 13:45:31] Fetching org.eclipse.tm.terminal.connector.local_4.5.0.201808290101.jar from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (27.25kB)
+[2018-09-24 13:45:31] Fetching org.eclipse.dltk.logconsole_5.10.0.201808292040.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/plugins/ (11.96kB)
+[2018-09-24 13:45:31] Fetching org.eclipse.json_1.1.0.v201802171654.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/plugins/ (23.73kB)
+[2018-09-24 13:45:31] Fetching org.eclipse.dltk.core.index.lucene_5.10.0.201808292040.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/plugins/ (26.36kB)
+[2018-09-24 13:45:31] Fetching org.eclipse.json_1.1.0.v201802171654.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/plugins/ (23.73kB)
+[2018-09-24 13:45:31] Downloading org.eclipse.wst.internet.monitor.core
+[2018-09-24 13:45:31] Fetching org.eclipse.wst.internet.monitor.core_1.0.600.v201309182039.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (27.44kB)
+[2018-09-24 13:45:31] Downloading org.eclipse.dltk.formatter
+[2018-09-24 13:45:31] Downloading org.eclipse.dltk.validators.externalchecker
+[2018-09-24 13:45:31] Downloading org.apache.commons.exec
+[2018-09-24 13:45:31] Fetching org.eclipse.dltk.validators.externalchecker_5.10.0.201808292040.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (28.26kB)
+[2018-09-24 13:45:31] Downloading org.eclipse.wst.jsdt.js.cli
+[2018-09-24 13:45:32] Fetching org.apache.commons.exec_1.1.0.v201301240602.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/plugins/ (28.37kB)
+[2018-09-24 13:45:32] Downloading org.eclipse.ptp.rdt.sync.git.core
+[2018-09-24 13:45:32] Fetching org.eclipse.ptp.rdt.sync.git.core_2.0.0.201805221500.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (30.24kB)
+[2018-09-24 13:45:32] Fetching org.eclipse.wst.jsdt.manipulation_1.0.601.v201602241911.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/plugins/ (21.41kB)
+[2018-09-24 13:45:32] Downloading org.eclipse.wst.json_core.feature
+[2018-09-24 13:45:32] Fetching org.eclipse.wst.json_core.feature_1.1.3.v201807251925.jar from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/features/ (30.31kB)
+[2018-09-24 13:45:32] Downloading org.eclipse.wst.json_ui.feature
+[2018-09-24 13:45:32] Downloading org.eclipse.wst.server_userdoc.feature
+[2018-09-24 13:45:32] Downloading org.eclipse.wst.server_core.feature
+[2018-09-24 13:45:32] Fetching org.eclipse.wst.json_ui.feature_1.1.3.v201807251925.jar from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/features/ (30.33kB)
+[2018-09-24 13:45:33] Fetching org.eclipse.wst.server_core.feature_3.3.700.v201803052214.jar from http://ftp.ussg.iu.edu/eclipse/releases/2018-09/201809191002/features/ (30.38kB)
+[2018-09-24 13:45:33] Fetching org.eclipse.wst.server_userdoc.feature_3.3.300.v201802152148.jar from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/features/ (30.36kB)
+[2018-09-24 13:45:33] Downloading org.eclipse.wst.web_userdoc.feature
+[2018-09-24 13:45:33] Fetching org.apache.commons.exec_1.1.0.v201301240602.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:45:33] Downloading org.eclipse.wst.web_core.feature
+[2018-09-24 13:45:33] Fetching org.eclipse.wst.web_userdoc.feature_3.11.0.v201807251925.jar from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/features/ (30.38kB)
+[2018-09-24 13:45:33] Downloading org.eclipse.wst.server_ui.feature
+[2018-09-24 13:45:33] Fetching org.eclipse.wst.web_core.feature_3.11.0.v201808220605.jar from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/features/ (30.41kB)
+[2018-09-24 13:45:33] Downloading org.eclipse.tm.terminal.connector.process
+[2018-09-24 13:45:33] Fetching org.eclipse.wst.server_ui.feature_3.3.700.v201805282004.jar from http://ftp.ussg.iu.edu/eclipse/releases/2018-09/201809191002/features/ (30.48kB)
+[2018-09-24 13:45:33] Downloading org.eclipse.dltk.console
+[2018-09-24 13:45:33] Downloading org.eclipse.remote
+[2018-09-24 13:45:33] Fetching org.eclipse.dltk.console_5.10.0.201808292040.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/2018-09/201809191002/plugins/ (15.74kB)
+[2018-09-24 13:45:33] Fetching org.eclipse.wst.jsdt.js.cli_1.0.0.v201605192332.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (15.25kB)
+[2018-09-24 13:45:33] Fetching org.eclipse.dltk.console_5.10.0.201808292040.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/2018-09/201809191002/plugins/ (15.74kB)
+[2018-09-24 13:45:33] Fetching org.eclipse.wst.jsdt.js.cli_1.0.0.v201605192332.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (15.25kB)
+[2018-09-24 13:45:33] Fetching org.eclipse.tm.terminal.connector.process_4.5.0.201808290101.jar from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (30.65kB)
+[2018-09-24 13:45:33] Downloading org.eclipse.dltk.mylyn
+[2018-09-24 13:45:33] Fetching org.eclipse.remote_3.0.0.201803121903.jar from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/features/ (31.08kB)
+[2018-09-24 13:45:33] Fetching org.eclipse.dltk.mylyn_5.10.0.201808292040.jar from http://ftp.ussg.iu.edu/eclipse/releases/2018-09/201809191002/features/ (32.25kB)
+[2018-09-24 13:45:33] Downloading org.eclipse.dltk.core.index.lucene
+[2018-09-24 13:45:33] Fetching org.eclipse.dltk.core.index.lucene_5.10.0.201808292040.jar from http://ftp.ussg.iu.edu/eclipse/releases/2018-09/201809191002/features/ (32.33kB)
+[2018-09-24 13:45:33] Downloading org.eclipse.dltk.core
+[2018-09-24 13:45:33] Downloading org.eclipse.dltk.validators.core
+[2018-09-24 13:45:33] Fetching org.eclipse.dltk.core_5.10.0.201808292040.jar from http://ftp.ussg.iu.edu/eclipse/releases/2018-09/201809191002/features/ (32.59kB)
+[2018-09-24 13:45:33] Fetching org.eclipse.dltk.validators.core_5.10.0.201808292040.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/2018-09/201809191002/plugins/ (32.83kB)
+[2018-09-24 13:45:33] Downloading org.eclipse.php.profile.core
+[2018-09-24 13:45:33] Fetching org.eclipse.php.profile.core_6.1.0.201808281524.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/2018-09/201809191002/plugins/ (32.87kB)
+[2018-09-24 13:45:34] Downloading org.eclipse.dltk.console.ui
+[2018-09-24 13:45:34] Downloading org.eclipse.ptp.remote.server.core
+[2018-09-24 13:45:34] Downloading org.eclipse.ptp.rdt.sync.git.ui
+[2018-09-24 13:45:34] Fetching org.eclipse.ptp.remote.server.core_3.0.0.201805221500.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (18.56kB)
+[2018-09-24 13:45:34] Downloading org.eclipse.wst.jsdt.js.gulp
+[2018-09-24 13:45:34] Fetching org.eclipse.wst.jsdt.js.gulp_1.0.200.v201610211901.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (19.06kB)
+[2018-09-24 13:45:34] Downloading org.eclipse.cdt.core.native
+[2018-09-24 13:45:34] Fetching org.eclipse.cdt.core.native_5.10.0.201809121146.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (16.8kB)
+[2018-09-24 13:45:34] Downloading org.eclipse.ptp.remote
+[2018-09-24 13:45:34] Downloading org.eclipse.wst.jsdt.js.grunt
+[2018-09-24 13:45:34] Fetching org.eclipse.ptp.remote_9.2.0.201805221500.jar from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/features/ (36.95kB)
+[2018-09-24 13:45:34] Downloading org.eclipse.ptp.rdt.sync
+[2018-09-24 13:45:34] Fetching org.eclipse.wst.jsdt.js.grunt_1.0.200.v201610211901.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (19.3kB)
+[2018-09-24 13:45:34] Downloading org.eclipse.tm.terminal.view.core
+[2018-09-24 13:45:35] Downloading org.eclipse.wst.server.discovery
+[2018-09-24 13:45:35] Fetching org.eclipse.ptp.rdt.sync_9.2.0.201805221500.jar from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/features/ (37.01kB)
+[2018-09-24 13:45:35] Fetching org.eclipse.tm.terminal.view.core_4.5.0.201808290101.jar from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (41.2kB)
+[2018-09-24 13:45:35] Fetching org.eclipse.wst.server.discovery_1.3.100.v201805282004.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (41.79kB)
+[2018-09-24 13:45:35] Downloading org.eclipse.remote.jsch.ui
+[2018-09-24 13:45:35] Fetching org.eclipse.ptp.rdt.sync.git.ui_1.0.0.201805221500.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (16.69kB)
+[2018-09-24 13:45:35] Fetching org.eclipse.remote.jsch.ui_1.0.0.201803121903.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (20.73kB)
+[2018-09-24 13:45:35] Downloading org.eclipse.php.composer.api
+[2018-09-24 13:45:35] Fetching org.eclipse.php.composer.api_6.1.0.201808281524.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (45.24kB)
+[2018-09-24 13:45:35] Downloading org.eclipse.wst.internet.monitor.ui
+[2018-09-24 13:45:35] Downloading org.eclipse.php.builtin.server.core
+[2018-09-24 13:45:35] Downloading org.eclipse.wst.jsdt.ui
+[2018-09-24 13:45:35] Fetching org.eclipse.wst.internet.monitor.ui_1.0.700.v201309182039.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (45.8kB)
+[2018-09-24 13:45:35] Fetching org.eclipse.php.builtin.server.core_6.1.0.201808281524.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (47.51kB)
+[2018-09-24 13:45:35] Downloading org.eclipse.php.core
+[2018-09-24 13:45:35] Fetching org.eclipse.php.core_6.1.0.201808281524.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (4.32MB)
+[2018-09-24 13:45:36] Downloading org.eclipse.dltk.ui
+[2018-09-24 13:45:36] Fetching org.eclipse.wst.jsdt.ui_2.0.301.v201710051729.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (2.32MB)
+[2018-09-24 13:45:37] Fetching org.eclipse.php.core_6.1.0.201808281524.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:45:37] Fetching org.eclipse.dltk.console.ui_5.10.0.201808292040.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/2018-09/201809191002/plugins/ (33.95kB)
+[2018-09-24 13:45:37] Fetching org.eclipse.dltk.formatter_5.10.0.201808292040.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (27.65kB)
+[2018-09-24 13:45:37] Downloading org.eclipse.wst.jsdt.doc
+[2018-09-24 13:45:37] Fetching org.eclipse.wst.internet.monitor.ui_1.0.700.v201309182039.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:45:37] Fetching org.eclipse.wst.jsdt.doc_2.0.200.v201710302345.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (3.64MB)
+[2018-09-24 13:45:37] Fetching org.eclipse.dltk.ui_5.10.0.201808292040.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (1.95MB)
+[2018-09-24 13:45:37] Fetching org.eclipse.wst.jsdt.chromium.debug.feature_0.6.0.v201705091354.jar from http://mirror.cc.vt.edu/pub/eclipse/releases/2018-09/201809191002/features/ (17.96kB)
+[2018-09-24 13:45:37] Fetching org.eclipse.wst.jsdt.ui_2.0.301.v201710051729.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:45:37] Fetching org.eclipse.wst.web_ui.feature_3.11.0.v201808220605.jar from http://mirror.cc.vt.edu/pub/eclipse/releases/2018-09/201809191002/features/ (17.98kB)
+[2018-09-24 13:45:37] Downloading org.eclipse.php.help
+[2018-09-24 13:45:37] Downloading org.eclipse.php.ui
+[2018-09-24 13:45:37] Downloading org.eclipse.dltk.core
+[2018-09-24 13:45:38] Fetching org.eclipse.dltk.core_5.10.0.201808292040.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (518.81kB)
+[2018-09-24 13:45:38] Downloading org.eclipse.birt.chart.engine
+[2018-09-24 13:45:38] Fetching org.eclipse.php.help_6.1.0.201808281524.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (3.1MB)
+[2018-09-24 13:45:38] Fetching org.eclipse.dltk.ui_5.10.0.201808292040.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:45:38] Fetching org.eclipse.wst.jsdt.doc_2.0.200.v201710302345.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:45:39] Fetching org.eclipse.dltk.core_5.10.0.201808292040.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:45:39] Fetching org.eclipse.php.help_6.1.0.201808281524.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:45:40] Fetching org.eclipse.tm.terminal.connector.local.feature_4.5.0.201809101428.jar from http://mirror.cc.vt.edu/pub/eclipse/releases/2018-09/201809191002/features/ (18.02kB)
+[2018-09-24 13:45:41] Fetching org.eclipse.php.ui_6.1.0.201808281524.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (979.68kB)
+[2018-09-24 13:45:41] Downloading org.eclipse.cdt.core
+[2018-09-24 13:45:42] Fetching org.eclipse.cdt.core_6.5.0.201809121146.jar.pack.gz from http://ftp.fau.de/eclipse/releases/2018-09/201809191002/plugins/ (1.58MB)
+[2018-09-24 13:45:42] Fetching org.eclipse.php.ui_6.1.0.201808281524.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:45:42] Fetching org.eclipse.cdt.core_6.5.0.201809121146.jar.pack.gz from http://ftp.fau.de/eclipse/releases/2018-09/201809191002/plugins/ (1.58MB)
+[2018-09-24 13:45:43] Fetching org.eclipse.cdt.core_6.5.0.201809121146.jar.pack.gz from http://ftp.fau.de/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:45:45] Fetching org.eclipse.birt.chart.engine_4.7.0.v201706222054.jar from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (1.69MB)
+[2018-09-24 13:45:45] Downloading org.eclipse.wst.jsdt.core
+[2018-09-24 13:45:46] Fetching org.eclipse.birt.chart.engine_4.7.0.v201706222054.jar from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:45:46] Fetching org.eclipse.wst.jsdt.core_2.0.302.v201804042202.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (1.2MB)
+[2018-09-24 13:45:47] Fetching org.eclipse.wst.jsdt.core_2.0.302.v201804042202.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:45:50] Fetching org.eclipse.tm.terminal.control.feature_4.5.0.201809101428.jar from http://mirror.cc.vt.edu/pub/eclipse/releases/2018-09/201809191002/features/ (18.05kB)
+[2018-09-24 13:45:50] Downloading com.google.javascript
+[2018-09-24 13:45:50] Fetching com.google.javascript_0.0.20160315.v20161124-1903.jar.pack.gz from http://ftp.fau.de/eclipse/releases/2018-09/201809191002/plugins/ (1.14MB)
+[2018-09-24 13:45:51] Fetching com.google.javascript_0.0.20160315.v20161124-1903.jar.pack.gz from http://ftp.fau.de/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:45:58] Downloading org.mozilla.javascript
+[2018-09-24 13:45:59] Fetching org.mozilla.javascript_1.7.5.v201504281450.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (430.37kB)
+[2018-09-24 13:46:00] Downloading org.eclipse.wst.jsdt.chromium.wipbackend.dev
+[2018-09-24 13:46:00] Fetching org.eclipse.wst.jsdt.chromium.wipbackend.dev_0.5.200.v201610212001.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (183.74kB)
+[2018-09-24 13:46:01] Fetching org.mozilla.javascript_1.7.5.v201504281450.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:01] Downloading org.eclipse.php.debug.core
+[2018-09-24 13:46:01] Fetching org.eclipse.php.debug.core_6.1.0.201808281524.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (246.04kB)
+[2018-09-24 13:46:02] Fetching org.eclipse.php.debug.core_6.1.0.201808281524.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:07] Downloading org.eclipse.wst.html.core
+[2018-09-24 13:46:07] Fetching org.eclipse.wst.html.core_1.3.0.v201804302243.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (200.92kB)
+[2018-09-24 13:46:07] Fetching org.eclipse.wst.jsdt.core_2.0.302.v201804042202.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (1.2MB)
+[2018-09-24 13:46:08] Fetching org.eclipse.wst.html.core_1.3.0.v201804302243.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:09] Fetching org.eclipse.php.help_6.1.0.201808281524.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (3.1MB)
+[2018-09-24 13:46:11] Downloading org.eclipse.wst.doc.user
+[2018-09-24 13:46:11] Fetching org.eclipse.wst.doc.user_1.2.0.v201711201733.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (757.87kB)
+[2018-09-24 13:46:12] Downloading org.eclipse.php.debug.ui
+[2018-09-24 13:46:12] Fetching org.eclipse.wst.doc.user_1.2.0.v201711201733.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:12] Downloading org.eclipse.wst.jsdt.chromium
+[2018-09-24 13:46:13] Fetching org.eclipse.wst.jsdt.chromium_0.5.200.v201610211901.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (189.52kB)
+[2018-09-24 13:46:13] Fetching org.eclipse.php.debug.ui_6.1.0.201808281524.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (238.4kB)
+[2018-09-24 13:46:13] Downloading org.eclipse.wst.jsdt.chromium.wipbackend.protocol_1_0
+[2018-09-24 13:46:13] Fetching org.eclipse.wst.jsdt.chromium.wipbackend.protocol_1_0_0.5.200.v201610212001.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (138.53kB)
+[2018-09-24 13:46:13] Downloading org.eclipse.wst.jsdt.chromium.debug.ui
+[2018-09-24 13:46:13] Fetching org.eclipse.wst.jsdt.chromium.debug.ui_0.6.200.v201701261810.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (155.75kB)
+[2018-09-24 13:46:13] Downloading com.google.protobuf
+[2018-09-24 13:46:14] Downloading org.eclipse.php.composer.ui
+[2018-09-24 13:46:14] Fetching org.eclipse.php.composer.ui_6.1.0.201808281524.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (227.78kB)
+[2018-09-24 13:46:14] Fetching org.eclipse.php.debug.ui_6.1.0.201808281524.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:14] Downloading org.eclipse.birt.core
+[2018-09-24 13:46:14] Fetching org.eclipse.birt.core_4.7.0.v201706222054.jar from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (530.51kB)
+[2018-09-24 13:46:15] Fetching com.google.protobuf_2.4.0.v201105131100.jar from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (611.72kB)
+[2018-09-24 13:46:15] Downloading org.eclipse.wst.jsdt.support.ie
+[2018-09-24 13:46:15] Fetching org.eclipse.birt.core_4.7.0.v201706222054.jar from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:16] Fetching org.eclipse.wst.jsdt.support.ie_1.0.601.v201602241911.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (348.87kB)
+[2018-09-24 13:46:16] Fetching com.google.protobuf_2.4.0.v201105131100.jar from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:16] Downloading org.eclipse.cdt.core.win32.x86_64
+[2018-09-24 13:46:17] Fetching org.eclipse.wst.jsdt.support.ie_1.0.601.v201602241911.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:17] Fetching org.eclipse.cdt.core.win32.x86_64_5.4.1.201809121146.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (358.81kB)
+[2018-09-24 13:46:18] Fetching org.eclipse.cdt.core.win32.x86_64_5.4.1.201809121146.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:21] Downloading org.eclipse.birt.chart.engine.extension
+[2018-09-24 13:46:22] Downloading org.eclipse.wst.common.project.facet.ui
+[2018-09-24 13:46:22] Fetching org.eclipse.birt.chart.engine.extension_4.7.0.v201706222054.jar from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (295.23kB)
+[2018-09-24 13:46:23] Fetching org.eclipse.wst.common.project.facet.ui_1.4.601.v201707201954.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (92.1kB)
+[2018-09-24 13:46:24] Fetching org.eclipse.birt.chart.engine.extension_4.7.0.v201706222054.jar from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:24] Fetching org.eclipse.wst.common.project.facet.ui_1.4.601.v201707201954.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:29] Downloading org.eclipse.wst.server.ui
+[2018-09-24 13:46:30] Fetching org.eclipse.wst.server.ui_1.5.401.v201804051745.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (263.72kB)
+[2018-09-24 13:46:31] Downloading org.eclipse.tm.terminal.view.ui
+[2018-09-24 13:46:31] Fetching org.eclipse.php.help_6.1.0.201808281524.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (3.1MB)
+[2018-09-24 13:46:31] Fetching org.eclipse.wst.server.ui_1.5.401.v201804051745.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:34] Fetching org.eclipse.tm.terminal.view.ui_4.5.0.201808290101.jar from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (252.44kB)
+[2018-09-24 13:46:36] Fetching org.eclipse.tm.terminal.view.ui_4.5.0.201808290101.jar from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:36] Downloading org.eclipse.mylyn.github.ui
+[2018-09-24 13:46:36] Fetching org.eclipse.mylyn.github.ui_5.1.0.201809111528-r.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (85kB)
+[2018-09-24 13:46:37] Downloading org.eclipse.php.refactoring.ui
+[2018-09-24 13:46:37] Fetching org.eclipse.php.refactoring.ui_6.1.0.201808281524.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (92.07kB)
+[2018-09-24 13:46:38] Downloading org.eclipse.mylyn.github.doc
+[2018-09-24 13:46:38] Fetching org.eclipse.mylyn.github.doc_5.1.0.201809111528-r.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (226.99kB)
+[2018-09-24 13:46:38] Downloading org.eclipse.wst.jsdt.web.ui
+[2018-09-24 13:46:38] Downloading org.eclipse.cdt.native.serial
+[2018-09-24 13:46:39] Fetching org.eclipse.cdt.native.serial_1.1.0.201809121146.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (212.12kB)
+[2018-09-24 13:46:39] Fetching org.eclipse.birt.chart.engine_4.7.0.v201706222054.jar from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (1.69MB)
+[2018-09-24 13:46:39] Fetching org.eclipse.wst.jsdt.web.ui_1.2.0.v201807090620.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (82.98kB)
+[2018-09-24 13:46:39] Downloading org.eclipse.dltk.debug.ui
+[2018-09-24 13:46:40] Fetching org.eclipse.dltk.debug.ui_5.10.0.201808292040.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (208.44kB)
+[2018-09-24 13:46:40] Fetching org.eclipse.cdt.native.serial_1.1.0.201809121146.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:40] Downloading org.eclipse.tm.terminal.control
+[2018-09-24 13:46:43] Fetching org.eclipse.dltk.debug.ui_5.10.0.201808292040.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:43] Fetching org.eclipse.cdt.core_6.5.0.201809121146.jar.pack.gz from http://ftp.fau.de/eclipse/releases/2018-09/201809191002/plugins/ (1.58MB)
+[2018-09-24 13:46:44] Fetching org.eclipse.tm.terminal.control_4.5.0.201808290101.jar from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (185.5kB)
+[2018-09-24 13:46:44] Downloading org.eclipse.php.phpunit
+[2018-09-24 13:46:44] Fetching org.eclipse.php.phpunit_6.1.0.201808281524.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (185.24kB)
+[2018-09-24 13:46:45] Fetching org.eclipse.php.ui_6.1.0.201808281524.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (979.68kB)
+[2018-09-24 13:46:45] Fetching org.eclipse.tm.terminal.control_4.5.0.201808290101.jar from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:45] Fetching org.eclipse.php.help_6.1.0.201808281524.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (3.1MB)
+[2018-09-24 13:46:45] Fetching org.eclipse.php.phpunit_6.1.0.201808281524.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:45] Downloading org.eclipse.wst.css.core
+[2018-09-24 13:46:45] Downloading org.eclipse.remote.doc.isv
+[2018-09-24 13:46:46] Fetching org.eclipse.wst.css.core_1.2.0.v201802171654.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (180.91kB)
+[2018-09-24 13:46:46] Downloading org.eclipse.ptp.rdt.sync.ui
+[2018-09-24 13:46:46] Fetching org.eclipse.ptp.rdt.sync.ui_2.0.0.201805221500.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (62.51kB)
+[2018-09-24 13:46:46] Downloading org.eclipse.wst.jsdt.web.core
+[2018-09-24 13:46:46] Fetching org.eclipse.wst.jsdt.web.core_1.1.0.v201807090620.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (62.41kB)
+[2018-09-24 13:46:47] Fetching org.eclipse.wst.css.core_1.2.0.v201802171654.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:48] Fetching org.eclipse.wst.jsdt.web.core_1.1.0.v201807090620.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:48] Downloading org.eclipse.zest.core
+[2018-09-24 13:46:48] Fetching org.eclipse.remote.doc.isv_1.0.0.201803121903.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (168.85kB)
+[2018-09-24 13:46:49] Downloading org.eclipse.php.server.ui
+[2018-09-24 13:46:49] Fetching org.eclipse.zest.core_1.5.300.201606061308.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (60.96kB)
+[2018-09-24 13:46:49] Fetching org.eclipse.php.server.ui_6.1.0.201808281524.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (56.24kB)
+[2018-09-24 13:46:49] Downloading org.eclipse.dltk.testing
+[2018-09-24 13:46:49] Downloading org.eclipse.platform.ide.executable.win32.win32.x86_64
+[2018-09-24 13:46:49] Downloading org.eclipse.wst.server.ui.doc.user
+[2018-09-24 13:46:50] Fetching org.eclipse.dltk.testing_5.10.0.201808292040.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (141.72kB)
+[2018-09-24 13:46:50] Fetching org.eclipse.wst.server.ui.doc.user_1.1.600.v201309182117.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (92.94kB)
+[2018-09-24 13:46:50] Downloading org.eclipse.dltk.core.manipulation
+[2018-09-24 13:46:50] Fetching org.eclipse.dltk.core.manipulation_5.10.0.201808292040.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (65.48kB)
+[2018-09-24 13:46:50] Downloading org.eclipse.php.core.parser
+[2018-09-24 13:46:51] Downloading org.eclipse.wst.jsdt.debug.crossfire
+[2018-09-24 13:46:51] Fetching org.eclipse.wst.jsdt.debug.crossfire_1.0.500.v201505071819.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (46.77kB)
+[2018-09-24 13:46:51] Fetching org.eclipse.php.core.parser_6.1.0.201808281524.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (60.44kB)
+[2018-09-24 13:46:51] Downloading org.eclipse.wst.webtools.doc.user
+[2018-09-24 13:46:51] Fetching org.eclipse.wst.webtools.doc.user_1.0.500.v201711201733.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (78.01kB)
+[2018-09-24 13:46:51] Fetching org.eclipse.dltk.testing_5.10.0.201808292040.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:52] Downloading org.eclipse.php.profile.ui
+[2018-09-24 13:46:52] Downloading org.eclipse.wst.jsdt.chromium.debug.core
+[2018-09-24 13:46:52] Fetching org.eclipse.php.profile.ui_6.1.0.201808281524.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (123.09kB)
+[2018-09-24 13:46:52] Fetching org.eclipse.wst.jsdt.chromium.debug.core_0.5.300.v201705091354.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (119.72kB)
+[2018-09-24 13:46:52] Fetching org.eclipse.php.core.parser_6.1.0.201808281524.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:53] Downloading org.eclipse.wst.css.ui
+[2018-09-24 13:46:53] Fetching org.eclipse.php.profile.ui_6.1.0.201808281524.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:53] Fetching org.eclipse.wst.jsdt.chromium.debug.core_0.5.300.v201705091354.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:53] Fetching org.eclipse.wst.css.ui_1.1.100.v201807090620.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (119.69kB)
+[2018-09-24 13:46:54] Fetching org.eclipse.wst.css.ui_1.1.100.v201807090620.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:54] Downloading org.eclipse.wst.server.core
+[2018-09-24 13:46:54] Fetching org.eclipse.wst.server.core_1.10.0.v201803052214.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (118.89kB)
+[2018-09-24 13:46:55] Downloading org.eclipse.php.composer.core
+[2018-09-24 13:46:55] Fetching org.eclipse.php.composer.core_6.1.0.201808281524.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (45.02kB)
+[2018-09-24 13:46:55] Downloading org.eclipse.php.formatter.core
+[2018-09-24 13:46:55] Fetching org.eclipse.php.formatter.core_6.1.0.201808281524.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (54.58kB)
+[2018-09-24 13:46:55] Downloading org.eclipse.wst.html.ui
+[2018-09-24 13:46:55] Downloading org.apache.lucene.misc
+[2018-09-24 13:46:55] Fetching org.eclipse.wst.html.ui_1.1.100.v201807090620.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (111.05kB)
+[2018-09-24 13:46:56] Downloading org.eclipse.wst.json.core
+[2018-09-24 13:46:56] Fetching org.eclipse.wst.json.core_1.1.0.v201804162113.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (104.33kB)
+[2018-09-24 13:46:56] Downloading org.eclipse.remote.telnet.ui
+[2018-09-24 13:46:56] Downloading org.eclipse.egit.gitflow.ui
+[2018-09-24 13:46:56] Fetching org.eclipse.php.formatter.core_6.1.0.201808281524.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:56] Fetching org.eclipse.egit.gitflow.ui_5.1.0.201809111528-r.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (37.69kB)
+[2018-09-24 13:46:56] Downloading org.eclipse.dltk.launching
+[2018-09-24 13:46:56] Downloading org.eclipse.wst.json.ui
+[2018-09-24 13:46:56] Fetching org.eclipse.dltk.launching_5.10.0.201808292040.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (100.75kB)
+[2018-09-24 13:46:56] Fetching org.eclipse.wst.html.ui_1.1.100.v201807090620.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:56] Fetching org.eclipse.remote.telnet.ui_1.0.0.201803121903.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (89.72kB)
+[2018-09-24 13:46:56] Fetching org.eclipse.wst.json.ui_1.0.200.v201807090620.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (98.45kB)
+[2018-09-24 13:46:57] Downloading org.eclipse.dltk.debug
+[2018-09-24 13:46:57] Fetching org.eclipse.dltk.debug_5.10.0.201808292040.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (97.05kB)
+[2018-09-24 13:46:58] Fetching org.eclipse.wst.json.ui_1.0.200.v201807090620.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:58] Downloading org.eclipse.remote.jsch.core
+[2018-09-24 13:46:58] Downloading org.eclipse.php.refactoring.core
+[2018-09-24 13:46:58] Fetching org.eclipse.remote.jsch.core_1.0.0.201803121903.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (35.72kB)
+[2018-09-24 13:46:58] Fetching org.eclipse.remote.telnet.ui_1.0.0.201803121903.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:58] Fetching org.eclipse.php.refactoring.core_6.1.0.201808281524.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (91.21kB)
+[2018-09-24 13:46:58] Downloading org.eclipse.wst.web.ui
+[2018-09-24 13:46:58] Downloading org.eclipse.wst.jsdt.debug.ui
+[2018-09-24 13:46:58] Fetching org.eclipse.wst.web.ui_1.2.0.v201802171744.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (42.66kB)
+[2018-09-24 13:46:58] Fetching org.eclipse.wst.jsdt.debug.ui_1.0.600.v201605311817.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (82.19kB)
+[2018-09-24 13:46:58] Downloading org.eclipse.remote.core
+[2018-09-24 13:46:59] Downloading org.eclipse.wst.jsdt.debug.rhino
+[2018-09-24 13:46:59] Fetching org.eclipse.wst.web.ui_1.2.0.v201802171744.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:59] Fetching org.eclipse.php.refactoring.core_6.1.0.201808281524.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:46:59] Downloading org.eclipse.wst.jsdt.debug.rhino.debugger
+[2018-09-24 13:46:59] Fetching org.apache.lucene.misc_7.1.0.v20180220-1923.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (49.8kB)
+[2018-09-24 13:46:59] Fetching org.eclipse.wst.jsdt.debug.rhino.debugger_1.0.600.v201604292217.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (33.6kB)
+[2018-09-24 13:46:59] Downloading org.eclipse.dltk.validators.ui
+[2018-09-24 13:46:59] Fetching org.eclipse.wst.jsdt.debug.rhino_1.0.500.v201605251607.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (27.87kB)
+[2018-09-24 13:46:59] Downloading org.eclipse.wst.jsdt.js.node
+[2018-09-24 13:47:00] Fetching org.eclipse.remote.core_4.0.0.201803121903.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (81.46kB)
+[2018-09-24 13:47:00] Fetching org.eclipse.wst.jsdt.js.node_1.1.100.v201705091354.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (30.05kB)
+[2018-09-24 13:47:00] Downloading org.eclipse.wst.web
+[2018-09-24 13:47:00] Downloading org.eclipse.mylyn.github.core
+[2018-09-24 13:47:00] Fetching org.eclipse.dltk.validators.ui_5.10.0.201808292040.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (32.84kB)
+[2018-09-24 13:47:00] Fetching org.eclipse.mylyn.github.core_5.1.0.201809111528-r.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (29.7kB)
+[2018-09-24 13:47:00] Downloading org.eclipse.remote.serial.ui
+[2018-09-24 13:47:00] Downloading org.eclipse.egit.github.core
+[2018-09-24 13:47:00] Fetching org.eclipse.remote.serial.ui_1.0.0.201803121903.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (55.16kB)
+[2018-09-24 13:47:01] Downloading org.eclipse.php.formatter.ui
+[2018-09-24 13:47:01] Fetching org.eclipse.remote.core_4.0.0.201803121903.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:47:01] Fetching org.eclipse.egit.github.core_5.1.0.201809111528-r.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (72.63kB)
+[2018-09-24 13:47:01] Fetching org.eclipse.php.formatter.ui_6.1.0.201808281524.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (67.35kB)
+[2018-09-24 13:47:01] Downloading org.eclipse.ptp.rdt.sync.core
+[2018-09-24 13:47:01] Fetching org.eclipse.ptp.rdt.sync.core_6.0.0.201805221500.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (26.7kB)
+[2018-09-24 13:47:01] Downloading org.eclipse.birt.chart.device.swt
+[2018-09-24 13:47:02] Downloading org.eclipse.remote.telnet.core
+[2018-09-24 13:47:02] Fetching org.eclipse.php.formatter.ui_6.1.0.201808281524.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:47:02] Fetching org.eclipse.remote.telnet.core_1.0.0.201803121903.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (58.82kB)
+[2018-09-24 13:47:03] Downloading org.eclipse.php.builtin.server.ui
+[2018-09-24 13:47:03] Fetching org.eclipse.php.builtin.server.ui_6.1.0.201808281524.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (32.54kB)
+[2018-09-24 13:47:03] Fetching org.eclipse.wst.web_1.2.0.v201802171654.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (36.54kB)
+[2018-09-24 13:47:03] Fetching org.eclipse.birt.chart.device.swt_4.7.0.v201706222054.jar from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (61.88kB)
+[2018-09-24 13:47:03] Downloading org.eclipse.egit.gitflow
+[2018-09-24 13:47:03] Downloading org.eclipse.remote.ui
+[2018-09-24 13:47:03] Fetching org.eclipse.egit.gitflow_5.1.0.201809111528-r.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (22.02kB)
+[2018-09-24 13:47:03] Downloading org.eclipse.tm.terminal.connector.ssh
+[2018-09-24 13:47:03] Fetching org.eclipse.remote.ui_2.1.0.201803121903.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (54.13kB)
+[2018-09-24 13:47:03] Downloading org.eclipse.wst.jsdt.js.bower
+[2018-09-24 13:47:03] Downloading org.eclipse.tm.terminal.connector.telnet
+[2018-09-24 13:47:03] Downloading org.eclipse.wst.jsdt.debug.core
+[2018-09-24 13:47:03] Fetching org.eclipse.wst.jsdt.js.bower_1.0.200.v201610220243.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (25.25kB)
+[2018-09-24 13:47:03] Fetching org.eclipse.tm.terminal.connector.telnet_4.5.0.201808290101.jar from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (52.59kB)
+[2018-09-24 13:47:03] Downloading org.eclipse.php.server.core
+[2018-09-24 13:47:04] Fetching org.eclipse.php.server.core_6.1.0.201808281524.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (23.98kB)
+[2018-09-24 13:47:04] Downloading org.eclipse.remote.serial.core
+[2018-09-24 13:47:04] Fetching org.eclipse.wst.jsdt.debug.core_3.2.200.v201610211901.jar.pack.gz from http://ftp.fau.de/eclipse/releases/2018-09/201809191002/plugins/ (52.39kB)
+[2018-09-24 13:47:04] Downloading org.eclipse.dltk.mylyn
+[2018-09-24 13:47:04] Fetching org.eclipse.remote.serial.core_1.0.0.201803121903.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (50.26kB)
+[2018-09-24 13:47:04] Fetching org.eclipse.dltk.mylyn_5.10.0.201808292040.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (49.75kB)
+[2018-09-24 13:47:04] Downloading org.eclipse.zest.layouts
+[2018-09-24 13:47:04] Fetching org.eclipse.tm.terminal.connector.ssh_4.5.0.201808290101.jar from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (53.96kB)
+[2018-09-24 13:47:04] Fetching org.eclipse.zest.layouts_1.1.300.201606061308.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/ (48.96kB)
+[2018-09-24 13:47:05] Fetching org.eclipse.tm.terminal.connector.ssh_4.5.0.201808290101.jar from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:47:05] Fetching org.eclipse.php.server.core_6.1.0.201808281524.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/plugins/
+[2018-09-24 13:47:11] Fetching org.eclipse.php.ui_6.1.0.201808281524.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/plugins/ (979.68kB)
+[2018-09-24 13:47:39] Mirrored 89 artifacts from http://eclipse.mirror.rafal.ca/releases/2018-09/201809191002/ at 56kb/s
+[2018-09-24 13:47:39] Mirrored 12 artifacts from http://ftp.ussg.iu.edu/eclipse/releases/2018-09/201809191002/ at 43kb/s with 2 failures
+[2018-09-24 13:47:39] Mirrored 22 artifacts from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/2018-09/201809191002/ at 37kb/s
+[2018-09-24 13:47:39] Mirrored 34 artifacts from http://mirrors.xmission.com/eclipse/releases/2018-09/201809191002/ at 32kb/s
+[2018-09-24 13:47:39] Mirrored 1 artifacts from http://mirror.csclub.uwaterloo.ca/eclipse/releases/2018-09/201809191002/ at 25kb/s
+[2018-09-24 13:47:39] Mirrored 1 artifacts from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/2018-09/201809191002/ at 19kb/s
+[2018-09-24 13:47:39] Mirrored 4 artifacts from http://ftp.fau.de/eclipse/releases/2018-09/201809191002/ at 16kb/s
+[2018-09-24 13:47:39] Mirrored 1 artifacts from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/2018-09/201809191002/ at 15kb/s
+[2018-09-24 13:47:39] Mirrored 1 artifacts from http://downloads.yoctoproject.org/eclipse-full/releases/2018-09/201809191002/ at 11kb/s
+[2018-09-24 13:47:39] Mirrored 1 artifacts from http://www.gtlib.gatech.edu/pub/eclipse/releases/2018-09/201809191002/ at 7kb/s
+[2018-09-24 13:47:39] Mirrored 7 artifacts from http://mirrors.syringanetworks.net/eclipse/releases/2018-09/201809191002/ at 7kb/s
+[2018-09-24 13:47:39] Mirrored 1 artifacts from http://mirror.switch.ch/eclipse/releases/2018-09/201809191002/ at 4kb/s
+[2018-09-24 13:47:39] Mirrored 1 artifacts from http://ftp.osuosl.org/pub/eclipse/releases/2018-09/201809191002/ at 3kb/s
+[2018-09-24 13:47:39] Mirrored 1 artifacts from http://mirrors.ibiblio.org/eclipse/releases/2018-09/201809191002/ at 2kb/s
+[2018-09-24 13:47:39] Mirrored 7 artifacts from http://mirror.cc.vt.edu/pub/eclipse/releases/2018-09/201809191002/ at 2kb/s
+[2018-09-24 13:47:39] Collected 184 artifacts for http://download.eclipse.org/releases/2018-09/201809191002 in 134.733s
+[2018-09-24 13:47:41] Installing a.jre.javase [10.0.0]
+[2018-09-24 13:47:41] Installing com.google.gson [2.8.2.v20180104-1110]
+[2018-09-24 13:47:41] Installing com.google.guava [21.0.0.v20170206-1425]
+[2018-09-24 13:47:41] Installing com.google.javascript [0.0.20160315.v20161124-1903]
+[2018-09-24 13:47:41] Installing com.google.protobuf [2.4.0.v201105131100]
+[2018-09-24 13:47:41] Installing com.ibm.icu [62.1.0.v20180727-1652]
+[2018-09-24 13:47:41] Installing com.jcraft.jsch [0.1.54.v20170116-1932]
+[2018-09-24 13:47:41] Installing com.jcraft.jzlib [1.1.1.v201205102305]
+[2018-09-24 13:47:41] Installing com.sun.el [2.2.0.v201303151357]
+[2018-09-24 13:47:41] Installing com.sun.jna [4.5.1.v20180403-1933]
+[2018-09-24 13:47:41] Installing com.sun.jna.platform [4.5.1.v20180403-1933]
+[2018-09-24 13:47:41] Installing epp.package.php [4.9.0.20180917-1800]
+[2018-09-24 13:47:41] Installing epp.package.php.executable.win32.win32.x86_64 [4.9.0.20180917-1800]
+[2018-09-24 13:47:41] Installing epp.package.php.executable.win32.win32.x86_64.eclipse [4.9.0.20180917-1800]
+[2018-09-24 13:47:41] Installing javaewah [1.1.6.v20160919-1400]
+[2018-09-24 13:47:41] Installing javax.annotation [1.2.0.v201602091430]
+[2018-09-24 13:47:41] Installing javax.el [2.2.0.v201303151357]
+[2018-09-24 13:47:41] Installing javax.inject [1.0.0.v20091030]
+[2018-09-24 13:47:41] Installing javax.servlet [3.1.0.v201410161800]
+[2018-09-24 13:47:41] Installing javax.servlet.jsp [2.2.0.v201112011158]
+[2018-09-24 13:47:41] Installing javax.xml [1.3.4.v201005080400]
+[2018-09-24 13:47:41] Installing org.apache.ant [1.10.5.v20180808-0324]
+[2018-09-24 13:47:41] Installing org.apache.batik.constants [1.10.0.v20180703-1553]
+[2018-09-24 13:47:41] Installing org.apache.batik.css [1.10.0.v20180703-1553]
+[2018-09-24 13:47:41] Installing org.apache.batik.i18n [1.10.0.v20180703-1553]
+[2018-09-24 13:47:41] Installing org.apache.batik.util [1.10.0.v20180703-1553]
+[2018-09-24 13:47:41] Installing org.apache.commons.codec [1.10.0.v20180409-1845]
+[2018-09-24 13:47:41] Installing org.apache.commons.compress [1.15.0.v20180119-1613]
+[2018-09-24 13:47:41] Installing org.apache.commons.exec [1.1.0.v201301240602]
+[2018-09-24 13:47:41] Installing org.apache.commons.httpclient [3.1.0.v201012070820]
+[2018-09-24 13:47:41] Installing org.apache.commons.io [2.2.0.v201405211200]
+[2018-09-24 13:47:41] Installing org.apache.commons.jxpath [1.3.0.v200911051830]
+[2018-09-24 13:47:41] Installing org.apache.commons.lang [2.6.0.v201404270220]
+[2018-09-24 13:47:41] Installing org.apache.commons.lang3 [3.1.0.v201403281430]
+[2018-09-24 13:47:41] Installing org.apache.commons.logging [1.2.0.v20180409-1502]
+[2018-09-24 13:47:41] Installing org.apache.felix.gogo.command [1.0.2.v20170914-1324]
+[2018-09-24 13:47:41] Installing org.apache.felix.gogo.runtime [1.1.0.v20180713-1646]
+[2018-09-24 13:47:41] Installing org.apache.felix.gogo.shell [1.1.0.v20180713-1646]
+[2018-09-24 13:47:41] Installing org.apache.felix.scr [2.0.14.v20180822-1822]
+[2018-09-24 13:47:41] Installing org.apache.httpcomponents.httpclient [4.5.5.v20180409-1525]
+[2018-09-24 13:47:41] Installing org.apache.httpcomponents.httpclient.win [4.5.5.v20180409-1525]
+[2018-09-24 13:47:41] Installing org.apache.httpcomponents.httpcore [4.4.9.v20180409-1525]
+[2018-09-24 13:47:41] Installing org.apache.jasper.glassfish [2.2.2.v201501141630]
+[2018-09-24 13:47:41] Installing org.apache.log4j [1.2.15.v201012070815]
+[2018-09-24 13:47:41] Installing org.apache.lucene.analyzers-common [6.1.0.v20161115-1612]
+[2018-09-24 13:47:41] Installing org.apache.lucene.analyzers-smartcn [7.1.0.v20180122-2126]
+[2018-09-24 13:47:41] Installing org.apache.lucene.core [6.1.0.v20170814-1820]
+[2018-09-24 13:47:41] Installing org.apache.lucene.misc [7.1.0.v20180220-1923]
+[2018-09-24 13:47:41] Installing org.apache.lucene.queryparser [6.1.0.v20161115-1612]
+[2018-09-24 13:47:41] Installing org.apache.ws.commons.util [1.0.1.v20100518-1140]
+[2018-09-24 13:47:41] Installing org.apache.xerces [2.9.0.v201101211617]
+[2018-09-24 13:47:41] Installing org.apache.xml.resolver [1.2.0.v201005080400]
+[2018-09-24 13:47:41] Installing org.apache.xml.serializer [2.7.1.v201005080400]
+[2018-09-24 13:47:41] Installing org.apache.xmlgraphics [2.2.0.v20180809-1640]
+[2018-09-24 13:47:41] Installing org.apache.xmlrpc [3.0.0.v20100427-1100]
+[2018-09-24 13:47:41] Installing org.eclipse.ant.core [3.5.200.v20180822-0553]
+[2018-09-24 13:47:41] Installing org.eclipse.birt.chart.device.swt [4.7.0.v201706222054]
+[2018-09-24 13:47:41] Installing org.eclipse.birt.chart.engine [4.7.0.v201706222054]
+[2018-09-24 13:47:41] Installing org.eclipse.birt.chart.engine.extension [4.7.0.v201706222054]
+[2018-09-24 13:47:41] Installing org.eclipse.birt.core [4.7.0.v201706222054]
+[2018-09-24 13:47:41] Installing org.eclipse.cdt.core [6.5.0.201809121146]
+[2018-09-24 13:47:41] Installing org.eclipse.cdt.core.native [5.10.0.201809121146]
+[2018-09-24 13:47:41] Installing org.eclipse.cdt.core.win32 [5.4.1.201809121146]
+[2018-09-24 13:47:41] Installing org.eclipse.cdt.core.win32.x86_64 [5.4.1.201809121146]
+[2018-09-24 13:47:41] Installing org.eclipse.cdt.native.serial [1.1.0.201809121146]
+[2018-09-24 13:47:41] Installing org.eclipse.compare [3.7.300.v20180827-1041]
+[2018-09-24 13:47:41] Installing org.eclipse.compare.core [3.6.300.v20180827-1041]
+[2018-09-24 13:47:41] Installing org.eclipse.compare.win32 [1.2.200.v20180827-1041]
+[2018-09-24 13:47:41] Installing org.eclipse.core.commands [3.9.200.v20180827-1727]
+[2018-09-24 13:47:41] Installing org.eclipse.core.contenttype [3.7.100.v20180817-1401]
+[2018-09-24 13:47:41] Installing org.eclipse.core.databinding [1.7.0.v20180827-2028]
+[2018-09-24 13:47:41] Installing org.eclipse.core.databinding.beans [1.4.200.v20180827-2028]
+[2018-09-24 13:47:41] Installing org.eclipse.core.databinding.observable [1.6.300.v20180827-2028]
+[2018-09-24 13:47:41] Installing org.eclipse.core.databinding.property [1.6.300.v20180827-2028]
+[2018-09-24 13:47:41] Installing org.eclipse.core.expressions [3.6.200.v20180817-1401]
+[2018-09-24 13:47:41] Installing org.eclipse.core.externaltools [1.1.200.v20180821-1744]
+[2018-09-24 13:47:41] Installing org.eclipse.core.filebuffers [3.6.300.v20180822-1339]
+[2018-09-24 13:47:41] Installing org.eclipse.core.filesystem [1.7.200.v20180828-0158]
+[2018-09-24 13:47:41] Installing org.eclipse.core.filesystem.win32.x86_64 [1.4.100.v20180828-0158]
+[2018-09-24 13:47:41] Installing org.eclipse.core.jobs [3.10.100.v20180817-1215]
+[2018-09-24 13:47:41] Installing org.eclipse.core.net [1.3.300.v20180827-1041]
+[2018-09-24 13:47:41] Installing org.eclipse.core.net.win32.x86_64 [1.1.200.v20180827-1041]
+[2018-09-24 13:47:41] Installing org.eclipse.core.resources [3.13.100.v20180828-0158]
+[2018-09-24 13:47:41] Installing org.eclipse.core.resources.win32.x86_64 [3.5.200.v20180828-0158]
+[2018-09-24 13:47:41] Installing org.eclipse.core.runtime [3.15.0.v20180817-1401]
+[2018-09-24 13:47:41] Installing org.eclipse.core.variables [3.4.200.v20180821-1744]
+[2018-09-24 13:47:41] Installing org.eclipse.debug.core [3.13.0.v20180821-1744]
+[2018-09-24 13:47:41] Installing org.eclipse.debug.ui [3.13.100.v20180827-0649]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.annotations [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.console [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.console.ui [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.core [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.core.feature.group [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.core.feature.jar [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.core.index [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.core.index.lucene [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.core.index.lucene.feature.group [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.core.index.lucene.feature.jar [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.core.manipulation [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.core_root [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.debug [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.debug.ui [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.formatter [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.launching [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.logconsole [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.logconsole.ui [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.mylyn [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.mylyn.feature.group [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.mylyn.feature.jar [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.mylyn_root [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.testing [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.ui [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.validators.core [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.validators.externalchecker [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.dltk.validators.ui [5.10.0.201808292040]
+[2018-09-24 13:47:41] Installing org.eclipse.draw2d [3.10.100.201606061308]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.core.commands [0.12.300.v20180828-0227]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.core.contexts [1.7.100.v20180817-1215]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.core.di [1.7.100.v20180817-1215]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.core.di.annotations [1.6.200.v20180817-1215]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.core.di.extensions [0.15.200.v20180817-1215]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.core.di.extensions.supplier [0.15.200.v20180817-1215]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.core.services [2.1.200.v20180817-1215]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.emf.xpath [0.2.200.v20180828-0227]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.rcp.feature.group [1.6.200.v20180906-1121]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.rcp.feature.jar [1.6.200.v20180906-1121]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.ui.bindings [0.12.200.v20180828-0227]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.ui.css.core [0.12.300.v20180828-0227]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.ui.css.swt [0.13.200.v20180828-0227]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.ui.css.swt.theme [0.12.100.v20180828-0227]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.ui.di [1.2.300.v20180906-1121]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.ui.dialogs [1.1.300.v20180828-0227]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.ui.model.workbench [2.1.100.v20180904-1914]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.ui.services [1.3.200.v20180906-1121]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.ui.widgets [1.2.200.v20180828-0227]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.ui.workbench [1.7.0.v20180906-1121]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.ui.workbench.addons.swt [1.3.200.v20180828-0227]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.ui.workbench.renderers.swt [0.14.300.v20180828-0227]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.ui.workbench.swt [0.14.300.v20180906-1121]
+[2018-09-24 13:47:41] Installing org.eclipse.e4.ui.workbench3 [0.14.200.v20180828-0227]
+[2018-09-24 13:47:41] Installing org.eclipse.ecf [3.9.1.v20180801-1752]
+[2018-09-24 13:47:41] Installing org.eclipse.ecf.core.feature.feature.group [1.5.1.v20180810-0833]
+[2018-09-24 13:47:41] Installing org.eclipse.ecf.core.feature.feature.jar [1.5.1.v20180810-0833]
+[2018-09-24 13:47:41] Installing org.eclipse.ecf.core.ssl.feature.feature.group [1.1.100.v20180301-0201]
+[2018-09-24 13:47:41] Installing org.eclipse.ecf.core.ssl.feature.feature.jar [1.1.100.v20180301-0201]
+[2018-09-24 13:47:41] Installing org.eclipse.ecf.filetransfer [5.0.100.v20180301-0132]
+[2018-09-24 13:47:41] Installing org.eclipse.ecf.filetransfer.feature.feature.group [3.14.2.v20180801-2237]
+[2018-09-24 13:47:41] Installing org.eclipse.ecf.filetransfer.feature.feature.jar [3.14.2.v20180801-2237]
+[2018-09-24 13:47:41] Installing org.eclipse.ecf.filetransfer.httpclient4.feature.feature.group [3.14.2.v20180801-2237]
+[2018-09-24 13:47:41] Installing org.eclipse.ecf.filetransfer.httpclient4.feature.feature.jar [3.14.2.v20180801-2237]
+[2018-09-24 13:47:41] Installing org.eclipse.ecf.filetransfer.httpclient4.ssl.feature.feature.group [1.1.100.v20180301-0132]
+[2018-09-24 13:47:41] Installing org.eclipse.ecf.filetransfer.httpclient4.ssl.feature.feature.jar [1.1.100.v20180301-0132]
+[2018-09-24 13:47:41] Installing org.eclipse.ecf.filetransfer.ssl.feature.feature.group [1.1.100.v20180301-0132]
+[2018-09-24 13:47:41] Installing org.eclipse.ecf.filetransfer.ssl.feature.feature.jar [1.1.100.v20180301-0132]
+[2018-09-24 13:47:41] Installing org.eclipse.ecf.identity [3.9.1.v20180810-0833]
+[2018-09-24 13:47:41] Installing org.eclipse.ecf.provider.filetransfer [3.2.400.v20180306-0429]
+[2018-09-24 13:47:41] Installing org.eclipse.ecf.provider.filetransfer.httpclient4 [1.1.300.v20180301-0132]
+[2018-09-24 13:47:41] Installing org.eclipse.ecf.provider.filetransfer.httpclient4.ssl [1.1.100.v20180301-0132]
+[2018-09-24 13:47:41] Installing org.eclipse.ecf.provider.filetransfer.ssl [1.0.100.v20180301-0132]
+[2018-09-24 13:47:41] Installing org.eclipse.ecf.ssl [1.2.100.v20180301-0132]
+[2018-09-24 13:47:41] Installing org.eclipse.egit [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.egit.core [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.egit.doc [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.egit.feature.group [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.egit.feature.jar [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.egit.gitflow [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.egit.gitflow.feature.feature.group [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.egit.gitflow.feature.feature.jar [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.egit.gitflow.ui [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.egit.github.core [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.egit.mylyn.feature.group [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.egit.mylyn.feature.jar [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.egit.mylyn.ui [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.egit.ui [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.emf.common [2.15.0.v20180723-1316]
+[2018-09-24 13:47:41] Installing org.eclipse.emf.common.feature.group [2.15.0.v20180723-1316]
+[2018-09-24 13:47:41] Installing org.eclipse.emf.common.feature.jar [2.15.0.v20180723-1316]
+[2018-09-24 13:47:41] Installing org.eclipse.emf.common.ui [2.14.0.v20180706-1146]
+[2018-09-24 13:47:41] Installing org.eclipse.emf.databinding [1.5.0.v20180706-1146]
+[2018-09-24 13:47:41] Installing org.eclipse.emf.ecore [2.15.0.v20180722-1159]
+[2018-09-24 13:47:41] Installing org.eclipse.emf.ecore.change [2.13.0.v20180706-1146]
+[2018-09-24 13:47:41] Installing org.eclipse.emf.ecore.edit [2.11.0.v20180823-0905]
+[2018-09-24 13:47:41] Installing org.eclipse.emf.ecore.feature.group [2.15.0.v20180722-1159]
+[2018-09-24 13:47:41] Installing org.eclipse.emf.ecore.feature.jar [2.15.0.v20180722-1159]
+[2018-09-24 13:47:41] Installing org.eclipse.emf.ecore.xmi [2.15.0.v20180706-1146]
+[2018-09-24 13:47:41] Installing org.eclipse.emf.edit [2.14.0.v20180823-0456]
+[2018-09-24 13:47:41] Installing org.eclipse.emf.edit.ui [2.15.0.v20180823-0914]
+[2018-09-24 13:47:41] Installing org.eclipse.epp.logging.aeri.core [2.0.7.v20180504-0806]
+[2018-09-24 13:47:41] Installing org.eclipse.epp.logging.aeri.feature.feature.group [2.0.7.v20180504-0806]
+[2018-09-24 13:47:41] Installing org.eclipse.epp.logging.aeri.feature.feature.jar [2.0.7.v20180504-0806]
+[2018-09-24 13:47:41] Installing org.eclipse.epp.logging.aeri.ide [2.0.7.v20180504-0806]
+[2018-09-24 13:47:41] Installing org.eclipse.epp.mpc.core [1.7.2.v20180829-1931]
+[2018-09-24 13:47:41] Installing org.eclipse.epp.mpc.core.win32 [1.7.2.v20180718-2001]
+[2018-09-24 13:47:41] Installing org.eclipse.epp.mpc.feature.group [1.7.2.v20180829-1931]
+[2018-09-24 13:47:41] Installing org.eclipse.epp.mpc.feature.jar [1.7.2.v20180829-1931]
+[2018-09-24 13:47:41] Installing org.eclipse.epp.mpc.help.ui [1.7.2.v20180718-2001]
+[2018-09-24 13:47:41] Installing org.eclipse.epp.mpc.ui [1.7.2.v20180718-2001]
+[2018-09-24 13:47:41] Installing org.eclipse.epp.mpc.ui.css [1.7.2.v20180718-2001]
+[2018-09-24 13:47:41] Installing org.eclipse.epp.package.common [4.9.0.20180917-1800]
+[2018-09-24 13:47:41] Installing org.eclipse.epp.package.common.feature.feature.group [4.9.0.20180917-1800]
+[2018-09-24 13:47:41] Installing org.eclipse.epp.package.common.feature.feature.jar [4.9.0.20180917-1800]
+[2018-09-24 13:47:41] Installing org.eclipse.epp.package.php [4.9.0.20180917-1800]
+[2018-09-24 13:47:41] Installing org.eclipse.epp.package.php.feature.feature.group [4.9.0.20180917-1800]
+[2018-09-24 13:47:41] Installing org.eclipse.epp.package.php.feature.feature.jar [4.9.0.20180917-1800]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.app [1.3.600.v20180827-1235]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.bidi [1.1.200.v20180827-1235]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.common [3.10.100.v20180827-1235]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.concurrent [1.1.200.v20180827-1235]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.console [1.3.100.v20180827-1235]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.ds [1.5.200.v20180827-1235]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.event [1.4.300.v20180827-1235]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.frameworkadmin [2.1.100.v20180822-1258]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.frameworkadmin.equinox [1.1.100.v20180822-1258]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.http.jetty [3.6.100.v20180827-1235]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.http.registry [1.1.600.v20180827-1235]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.http.servlet [1.5.100.v20180904-1442]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.jsp.jasper [1.1.100.v20180827-1235]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.jsp.jasper.registry [1.1.100.v20180827-1235]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.launcher [1.5.100.v20180827-1352]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.launcher.win32.win32.x86_64 [1.1.800.v20180827-1352]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.artifact.repository [1.2.100.v20180822-1258]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.console [1.1.100.v20180822-1258]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.core [2.5.100.v20180822-1532]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.core.feature.feature.group [1.5.100.v20180829-1443]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.core.feature.feature.jar [1.5.100.v20180829-1443]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.director [2.4.100.v20180822-1258]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.director.app [1.1.200.v20180822-1302]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.directorywatcher [1.2.100.v20180822-1302]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.discovery [1.1.100.v20180822-1302]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.discovery.compatibility [1.1.100.v20180822-1302]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.discovery.feature.feature.group [1.2.100.v20180822-1357]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.discovery.feature.feature.jar [1.2.100.v20180822-1357]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.engine [2.6.100.v20180822-1302]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.extensionlocation [1.3.100.v20180822-1302]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.extras.feature.feature.group [1.4.100.v20180829-1443]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.extras.feature.feature.jar [1.4.100.v20180829-1443]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.garbagecollector [1.1.100.v20180822-1302]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.jarprocessor [1.1.100.v20180822-1302]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.metadata [2.4.100.v20180822-1302]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.metadata.repository [1.3.100.v20180822-1302]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.operations [2.5.100.v20180822-1302]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.publisher [1.5.100.v20180822-1302]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.publisher.eclipse [1.3.100.v20180822-1354]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.rcp.feature.feature.group [1.4.100.v20180829-1443]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.rcp.feature.feature.jar [1.4.100.v20180829-1443]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.reconciler.dropins [1.2.100.v20180822-1354]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.repository [2.4.100.v20180822-1354]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.repository.tools [2.2.100.v20180822-1354]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.touchpoint.eclipse [2.2.100.v20180822-1354]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.touchpoint.natives [1.3.100.v20180822-1354]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.transport.ecf [1.2.100.v20180822-1354]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.ui [2.5.200.v20180822-1357]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.ui.discovery [1.1.100.v20180822-1357]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.ui.importexport [1.2.100.v20180827-1122]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.ui.sdk [1.1.100.v20180827-1122]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.ui.sdk.scheduler [1.4.100.v20180827-1122]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.updatechecker [1.2.100.v20180827-1122]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.updatesite [1.1.100.v20180827-1122]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.user.ui.feature.group [2.4.100.v20180829-1443]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.p2.user.ui.feature.jar [2.4.100.v20180829-1443]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.preferences [3.7.200.v20180827-1235]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.registry [3.8.100.v20180827-1235]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.security [1.2.500.v20180827-1235]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.security.ui [1.2.100.v20180827-1235]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.security.win32.x86_64 [1.1.100.v20180827-1235]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.simpleconfigurator [1.3.100.v20180827-1122]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.simpleconfigurator.manipulator [2.1.100.v20180827-1122]
+[2018-09-24 13:47:41] Installing org.eclipse.equinox.util [1.1.100.v20180827-1235]
+[2018-09-24 13:47:41] Installing org.eclipse.gef [3.11.0.201606061308]
+[2018-09-24 13:47:41] Installing org.eclipse.help [3.8.200.v20180821-0700]
+[2018-09-24 13:47:41] Installing org.eclipse.help.base [4.2.300.v20180906-0745]
+[2018-09-24 13:47:41] Installing org.eclipse.help.feature.group [2.2.300.v20180906-0745]
+[2018-09-24 13:47:41] Installing org.eclipse.help.feature.jar [2.2.300.v20180906-0745]
+[2018-09-24 13:47:41] Installing org.eclipse.help.ui [4.1.200.v20180821-0700]
+[2018-09-24 13:47:41] Installing org.eclipse.help.webapp [3.9.200.v20180821-0700]
+[2018-09-24 13:47:41] Installing org.eclipse.jdt.core [3.15.0.v20180905-0317]
+[2018-09-24 13:47:41] Installing org.eclipse.jem.util [2.1.201.v201707201954]
+[2018-09-24 13:47:41] Installing org.eclipse.jetty.continuation [9.4.11.v20180605]
+[2018-09-24 13:47:41] Installing org.eclipse.jetty.http [9.4.11.v20180605]
+[2018-09-24 13:47:41] Installing org.eclipse.jetty.io [9.4.11.v20180605]
+[2018-09-24 13:47:41] Installing org.eclipse.jetty.security [9.4.11.v20180605]
+[2018-09-24 13:47:41] Installing org.eclipse.jetty.server [9.4.11.v20180605]
+[2018-09-24 13:47:41] Installing org.eclipse.jetty.servlet [9.4.11.v20180605]
+[2018-09-24 13:47:41] Installing org.eclipse.jetty.util [9.4.11.v20180605]
+[2018-09-24 13:47:41] Installing org.eclipse.jface [3.14.100.v20180828-0836]
+[2018-09-24 13:47:41] Installing org.eclipse.jface.databinding [1.8.300.v20180828-0836]
+[2018-09-24 13:47:41] Installing org.eclipse.jface.text [3.14.0.v20180824-1140]
+[2018-09-24 13:47:41] Installing org.eclipse.jgit [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.jgit.archive [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.jgit.feature.group [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.jgit.feature.jar [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.jsch.core [1.3.200.v20180827-1041]
+[2018-09-24 13:47:41] Installing org.eclipse.jsch.ui [1.3.200.v20180827-1041]
+[2018-09-24 13:47:41] Installing org.eclipse.json [1.1.0.v201802171654]
+[2018-09-24 13:47:41] Installing org.eclipse.ltk.core.refactoring [3.9.100.v20180828-0626]
+[2018-09-24 13:47:41] Installing org.eclipse.ltk.ui.refactoring [3.9.200.v20180828-0626]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.bugzilla.core [3.24.2.v20180905-0003]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.bugzilla.ide [3.24.2.v20180905-0014]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.bugzilla.ui [3.24.2.v20180905-0003]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.bugzilla_feature.feature.group [3.24.2.v20180905-0003]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.bugzilla_feature.feature.jar [3.24.2.v20180905-0003]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.commons.core [3.24.2.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.commons.feature.group [3.24.2.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.commons.feature.jar [3.24.2.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.commons.identity.core [1.16.0.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.commons.identity.feature.group [1.16.0.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.commons.identity.feature.jar [1.16.0.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.commons.net [3.24.2.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.commons.notifications.core [1.16.0.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.commons.notifications.feature.group [1.16.0.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.commons.notifications.feature.jar [1.16.0.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.commons.notifications.feed [1.16.0.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.commons.notifications.ui [1.16.0.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.commons.repositories.core [1.16.0.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.commons.repositories.feature.group [1.16.0.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.commons.repositories.feature.jar [1.16.0.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.commons.repositories.ui [1.16.0.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.commons.screenshots [3.24.2.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.commons.ui [3.24.2.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.commons.workbench [3.24.2.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.commons.xmlrpc [3.24.2.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.context.core [3.24.2.v20180905-0014]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.context.tasks.ui [3.24.2.v20180905-0014]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.context.ui [3.24.2.v20180905-0014]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.context_feature.feature.group [3.24.2.v20180905-0014]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.context_feature.feature.jar [3.24.2.v20180905-0014]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.discovery.core [3.24.2.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.discovery.feature.group [3.24.2.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.discovery.feature.jar [3.24.2.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.discovery.ui [3.24.2.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.github.core [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.github.doc [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.github.feature.feature.group [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.github.feature.feature.jar [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.github.ui [5.1.0.201809111528-r]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.help.ui [3.24.2.v20180905-0003]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.ide.ui [3.24.2.v20180905-0014]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.ide_feature.feature.group [3.24.2.v20180905-0014]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.ide_feature.feature.jar [3.24.2.v20180905-0014]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.monitor.core [3.24.2.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.monitor.feature.group [3.24.2.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.monitor.feature.jar [3.24.2.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.monitor.ui [3.24.2.v20180904-2231]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.resources.ui [3.24.2.v20180905-0014]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.tasks.bugs [3.24.2.v20180905-0003]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.tasks.core [3.24.2.v20180905-0003]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.tasks.ide.feature.group [3.24.2.v20180905-0003]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.tasks.ide.feature.jar [3.24.2.v20180905-0003]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.tasks.index.core [3.24.2.v20180905-0003]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.tasks.index.ui [3.24.2.v20180905-0003]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.tasks.search [3.24.2.v20180905-0003]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.tasks.ui [3.24.2.v20180905-0003]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.team.ui [3.24.2.v20180905-0014]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.team_feature.feature.group [3.24.2.v20180905-0014]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.team_feature.feature.jar [3.24.2.v20180905-0014]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext [3.0.25.20180620133858]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.ant [3.0.25.20180620133858]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.asciidoc [3.0.25.20180620133858]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.asciidoc.ui [3.0.25.201806201740]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.confluence [3.0.25.20180620133858]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.confluence.ui [3.0.25.201806201740]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.context.ui [3.0.25.201806201740]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.editors_feature.feature.group [3.0.25.201806201740]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.editors_feature.feature.jar [3.0.25.201806201740]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.help.ui [3.0.25.201806201740]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.html [3.0.25.20180620133858]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.markdown [3.0.25.20180620133858]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.markdown.ui [3.0.25.201806201740]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.mediawiki [3.0.25.20180620133858]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.mediawiki.ui [3.0.25.201806201740]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.osgi [3.0.25.201806201740]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.tasks.ui [3.0.25.201806201740]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.textile [3.0.25.20180620133858]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.textile.ui [3.0.25.201806201740]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.tracwiki [3.0.25.20180620133858]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.tracwiki.ui [3.0.25.201806201740]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.twiki [3.0.25.20180620133858]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.twiki.ui [3.0.25.201806201740]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext.ui [3.0.25.201806201740]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext_feature.feature.group [3.0.25.201806201740]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn.wikitext_feature.feature.jar [3.0.25.201806201740]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn_feature.feature.group [3.24.2.v20180905-0003]
+[2018-09-24 13:47:41] Installing org.eclipse.mylyn_feature.feature.jar [3.24.2.v20180905-0003]
+[2018-09-24 13:47:41] Installing org.eclipse.nebula.widgets.tablecombo [1.2.0.201808161734]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.base [1.10.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.base.edit [1.10.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.extractor.lib [1.5.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.jreinfo [1.10.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.jreinfo.ui [1.10.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.jreinfo.win32.x86_64 [1.4.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.p2 [1.10.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.p2.core [1.10.0.v20180712-0540]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.p2.doc [1.10.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.p2.edit [1.10.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.p2.feature.group [1.10.0.v20180829-1028]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.p2.feature.jar [1.10.0.v20180829-1028]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.p2.ui [1.10.0.v20180829-1028]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.predicates [1.10.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.predicates.edit [1.10.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.preferences [1.10.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.resources [1.10.0.v20180828-0657]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.resources.edit [1.10.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.setup [1.10.0.v20180828-0705]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.setup.core [1.10.0.v20180714-0556]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.setup.core.feature.group [1.10.0.v20180828-0705]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.setup.core.feature.jar [1.10.0.v20180828-0705]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.setup.doc [1.10.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.setup.edit [1.10.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.setup.editor [1.10.0.v20180821-1848]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.setup.feature.group [1.10.0.v20180904-1112]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.setup.feature.jar [1.10.0.v20180904-1112]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.setup.p2 [1.10.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.setup.p2.edit [1.10.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.setup.sync [1.10.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.setup.ui [1.10.0.v20180904-1112]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.setup.ui.questionnaire [1.10.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.ui [1.10.0.v20180904-1112]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.util [1.10.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.workingsets [1.10.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.workingsets.edit [1.10.0.v20180706-1242]
+[2018-09-24 13:47:41] Installing org.eclipse.oomph.workingsets.editor [1.10.0.v20180904-1112]
+[2018-09-24 13:47:41] Installing org.eclipse.osgi [3.13.100.v20180827-1536]
+[2018-09-24 13:47:41] Installing org.eclipse.osgi.compatibility.state [1.1.200.v20180827-1536]
+[2018-09-24 13:47:41] Installing org.eclipse.osgi.services [3.7.100.v20180827-1536]
+[2018-09-24 13:47:41] Installing org.eclipse.osgi.util [3.5.100.v20180827-1536]
+[2018-09-24 13:47:41] Installing org.eclipse.php.builtin.server.core [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.builtin.server.ui [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.composer.api [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.composer.core [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.composer.feature.group [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.composer.feature.jar [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.composer.ui [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.core [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.core.parser [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.debug.core [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.debug.daemon [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.debug.ui [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.feature.group [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.feature.jar [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.formatter.core [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.formatter.ui [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.help [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.mylyn.feature.group [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.mylyn.feature.jar [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.mylyn.ui [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.phpunit [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.phpunit.feature.feature.group [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.phpunit.feature.feature.jar [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.profile.core [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.profile.ui [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.profiler.feature.group [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.profiler.feature.jar [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.rdt.sync.feature.group [6.1.0.201808281524]
+[2018-09-24 13:47:41] Installing org.eclipse.php.rdt.sync.feature.jar [6.1.0.201808281524]
+[2018-09-24 13:47:42] Installing org.eclipse.php.rdt.sync.ui [6.1.0.201808281524]
+[2018-09-24 13:47:42] Installing org.eclipse.php.refactoring.core [6.1.0.201808281524]
+[2018-09-24 13:47:42] Installing org.eclipse.php.refactoring.ui [6.1.0.201808281524]
+[2018-09-24 13:47:42] Installing org.eclipse.php.server.core [6.1.0.201808281524]
+[2018-09-24 13:47:42] Installing org.eclipse.php.server.ui [6.1.0.201808281524]
+[2018-09-24 13:47:42] Installing org.eclipse.php.ui [6.1.0.201808281524]
+[2018-09-24 13:47:42] Installing org.eclipse.platform [4.9.0.v20180906-0745]
+[2018-09-24 13:47:42] Installing org.eclipse.platform.doc.user [4.9.0.v20180905-1254]
+[2018-09-24 13:47:42] Installing org.eclipse.platform.feature.group [4.9.0.v20180906-1121]
+[2018-09-24 13:47:42] Installing org.eclipse.platform.feature.jar [4.9.0.v20180906-1121]
+[2018-09-24 13:47:42] Installing org.eclipse.platform.ide [4.9.0.I20180906-0745]
+[2018-09-24 13:47:42] Installing org.eclipse.platform.ide.executable.win32.win32.x86_64 [4.9.0.I20180906-0745]
+[2018-09-24 13:47:42] Installing org.eclipse.platform.ide.executable.win32.win32.x86_64.eclipse [4.9.0.I20180906-0745]
+[2018-09-24 13:47:42] Installing org.eclipse.platform_root [4.9.0.v20180906-1121]
+[2018-09-24 13:47:42] Installing org.eclipse.ptp.rdt.sync.core [6.0.0.201805221500]
+[2018-09-24 13:47:42] Installing org.eclipse.ptp.rdt.sync.feature.group [9.2.0.201805221500]
+[2018-09-24 13:47:42] Installing org.eclipse.ptp.rdt.sync.feature.jar [9.2.0.201805221500]
+[2018-09-24 13:47:42] Installing org.eclipse.ptp.rdt.sync.git.core [2.0.0.201805221500]
+[2018-09-24 13:47:42] Installing org.eclipse.ptp.rdt.sync.git.ui [1.0.0.201805221500]
+[2018-09-24 13:47:42] Installing org.eclipse.ptp.rdt.sync.ui [2.0.0.201805221500]
+[2018-09-24 13:47:42] Installing org.eclipse.ptp.remote.feature.group [9.2.0.201805221500]
+[2018-09-24 13:47:42] Installing org.eclipse.ptp.remote.feature.jar [9.2.0.201805221500]
+[2018-09-24 13:47:42] Installing org.eclipse.ptp.remote.server.core [3.0.0.201805221500]
+[2018-09-24 13:47:42] Installing org.eclipse.rcp [4.9.100.v20180906-0745]
+[2018-09-24 13:47:42] Installing org.eclipse.rcp.feature.group [4.9.0.v20180906-1121]
+[2018-09-24 13:47:42] Installing org.eclipse.rcp.feature.jar [4.9.0.v20180906-1121]
+[2018-09-24 13:47:42] Installing org.eclipse.rcp_root [4.9.0.v20180906-1121]
+[2018-09-24 13:47:42] Installing org.eclipse.remote.console [1.2.0.201803121903]
+[2018-09-24 13:47:42] Installing org.eclipse.remote.core [4.0.0.201803121903]
+[2018-09-24 13:47:42] Installing org.eclipse.remote.doc.isv [1.0.0.201803121903]
+[2018-09-24 13:47:42] Installing org.eclipse.remote.feature.group [3.0.0.201803121903]
+[2018-09-24 13:47:42] Installing org.eclipse.remote.feature.jar [3.0.0.201803121903]
+[2018-09-24 13:47:42] Installing org.eclipse.remote.jsch.core [1.0.0.201803121903]
+[2018-09-24 13:47:42] Installing org.eclipse.remote.jsch.ui [1.0.0.201803121903]
+[2018-09-24 13:47:42] Installing org.eclipse.remote.serial.core [1.0.0.201803121903]
+[2018-09-24 13:47:42] Installing org.eclipse.remote.serial.ui [1.0.0.201803121903]
+[2018-09-24 13:47:42] Installing org.eclipse.remote.telnet.core [1.0.0.201803121903]
+[2018-09-24 13:47:42] Installing org.eclipse.remote.telnet.ui [1.0.0.201803121903]
+[2018-09-24 13:47:42] Installing org.eclipse.remote.ui [2.1.0.201803121903]
+[2018-09-24 13:47:42] Installing org.eclipse.search [3.11.300.v20180822-1339]
+[2018-09-24 13:47:42] Installing org.eclipse.swt [3.108.0.v20180904-1901]
+[2018-09-24 13:47:42] Installing org.eclipse.swt.win32.win32.x86_64 [3.108.0.v20180904-1901]
+[2018-09-24 13:47:42] Installing org.eclipse.team.core [3.8.300.v20180827-1041]
+[2018-09-24 13:47:42] Installing org.eclipse.team.genericeditor.diff.extension [1.0.200.v20180827-1041]
+[2018-09-24 13:47:42] Installing org.eclipse.team.ui [3.8.200.v20180827-1338]
+[2018-09-24 13:47:42] Installing org.eclipse.text [3.7.0.v20180822-1511]
+[2018-09-24 13:47:42] Installing org.eclipse.tm.terminal.connector.local [4.5.0.201808290101]
+[2018-09-24 13:47:42] Installing org.eclipse.tm.terminal.connector.local.feature.feature.group [4.5.0.201809101428]
+[2018-09-24 13:47:42] Installing org.eclipse.tm.terminal.connector.local.feature.feature.jar [4.5.0.201809101428]
+[2018-09-24 13:47:42] Installing org.eclipse.tm.terminal.connector.process [4.5.0.201808290101]
+[2018-09-24 13:47:42] Installing org.eclipse.tm.terminal.connector.ssh [4.5.0.201808290101]
+[2018-09-24 13:47:42] Installing org.eclipse.tm.terminal.connector.ssh.feature.feature.group [4.5.0.201809101428]
+[2018-09-24 13:47:42] Installing org.eclipse.tm.terminal.connector.ssh.feature.feature.jar [4.5.0.201809101428]
+[2018-09-24 13:47:42] Installing org.eclipse.tm.terminal.connector.telnet [4.5.0.201808290101]
+[2018-09-24 13:47:42] Installing org.eclipse.tm.terminal.connector.telnet.feature.feature.group [4.5.0.201809101428]
+[2018-09-24 13:47:42] Installing org.eclipse.tm.terminal.connector.telnet.feature.feature.jar [4.5.0.201809101428]
+[2018-09-24 13:47:42] Installing org.eclipse.tm.terminal.control [4.5.0.201808290101]
+[2018-09-24 13:47:42] Installing org.eclipse.tm.terminal.control.feature.feature.group [4.5.0.201809101428]
+[2018-09-24 13:47:42] Installing org.eclipse.tm.terminal.control.feature.feature.jar [4.5.0.201809101428]
+[2018-09-24 13:47:42] Installing org.eclipse.tm.terminal.feature.feature.group [4.5.0.201809101428]
+[2018-09-24 13:47:42] Installing org.eclipse.tm.terminal.feature.feature.jar [4.5.0.201809101428]
+[2018-09-24 13:47:42] Installing org.eclipse.tm.terminal.view.core [4.5.0.201808290101]
+[2018-09-24 13:47:42] Installing org.eclipse.tm.terminal.view.feature.feature.group [4.5.0.201809101428]
+[2018-09-24 13:47:42] Installing org.eclipse.tm.terminal.view.feature.feature.jar [4.5.0.201809101428]
+[2018-09-24 13:47:42] Installing org.eclipse.tm.terminal.view.ui [4.5.0.201808290101]
+[2018-09-24 13:47:42] Installing org.eclipse.ui [3.110.0.v20180828-1350]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.browser [3.6.300.v20180828-0837]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.cheatsheets [3.5.300.v20180823-1505]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.console [3.8.100.v20180821-1744]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.editors [3.11.200.v20180822-1511]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.externaltools [3.4.200.v20180821-1744]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.forms [3.7.300.v20180828-1350]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.genericeditor [1.1.100.v20180824-1616]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.ide [3.14.100.v20180828-1350]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.ide.application [1.3.0.v20180828-1350]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.intro [3.5.300.v20180823-1505]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.intro.quicklinks [1.0.300.v20180821-0700]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.intro.universal [3.3.300.v20180821-0700]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.monitoring [1.1.300.v20180828-1350]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.navigator [3.7.200.v20180828-0837]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.navigator.resources [3.6.200.v20180828-0837]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.net [1.3.300.v20180827-1041]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.themes [1.2.200.v20180828-1350]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.views [3.9.200.v20180828-0837]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.views.log [1.2.300.v20180827-1331]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.views.properties.tabbed [3.8.200.v20180828-0837]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.win32 [3.4.100.v20180828-0838]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.workbench [3.112.0.v20180906-1121]
+[2018-09-24 13:47:42] Installing org.eclipse.ui.workbench.texteditor [3.11.100.v20180824-1030]
+[2018-09-24 13:47:42] Installing org.eclipse.update.configurator [3.4.100.v20180821-1913]
+[2018-09-24 13:47:42] Installing org.eclipse.urischeme [1.0.0.v20180828-1120]
+[2018-09-24 13:47:42] Installing org.eclipse.userstorage [1.1.0.v20170328-0205]
+[2018-09-24 13:47:42] Installing org.eclipse.userstorage.feature.group [1.1.0.v20170526-1605]
+[2018-09-24 13:47:42] Installing org.eclipse.userstorage.feature.jar [1.1.0.v20170526-1605]
+[2018-09-24 13:47:42] Installing org.eclipse.userstorage.oauth [1.0.0.v20170526-1605]
+[2018-09-24 13:47:42] Installing org.eclipse.userstorage.ui [1.0.2.v20170526-1605]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.common.core [1.2.0.v201802151734]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.common.emf [1.2.600.v201803151712]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.common.emfworkbench.integration [1.2.101.v201802262042]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.common.environment [1.0.400.v201802151734]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.common.frameworks [1.2.201.v201707201954]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.common.frameworks.ui [1.2.400.v201802151734]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.common.infopop [1.0.300.v201802151734]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.common.modulecore [1.3.0.v201805260536]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.common.modulecore.ui [1.0.301.v201707201954]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.common.project.facet.core [1.4.400.v201808012032]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.common.project.facet.ui [1.4.601.v201707201954]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.common.snippets [1.2.400.v201803040536]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.common.ui [1.1.500.v200911182011]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.common.uriresolver [1.2.300.v201802151734]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.common_core.feature.feature.group [3.9.1.v201805260536]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.common_core.feature.feature.jar [3.9.1.v201805260536]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.common_ui.feature.feature.group [3.9.2.v201803040536]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.common_ui.feature.feature.jar [3.9.2.v201803040536]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.css.core [1.2.0.v201802171654]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.css.ui [1.1.100.v201807090620]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.doc.user [1.2.0.v201711201733]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.dtd.core [1.2.0.v201802171654]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.dtd.ui [1.1.100.v201807090620]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.dtd.ui.infopop [1.0.400.v201711201733]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.dtdeditor.doc.user [1.1.0.v201802171654]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.html.core [1.3.0.v201804302243]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.html.ui [1.1.100.v201807090620]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.html.ui.infopop [1.0.201.v201711201733]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.internet.cache [1.0.800.v201702270716]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.internet.monitor.core [1.0.600.v201309182039]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.internet.monitor.ui [1.0.700.v201309182039]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.chromium [0.5.200.v201610211901]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.chromium.debug [0.4.0.v201605131737]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.chromium.debug.core [0.5.300.v201705091354]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.chromium.debug.feature.feature.group [0.6.0.v201705091354]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.chromium.debug.feature.feature.jar [0.6.0.v201705091354]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.chromium.debug.js [0.1.200.v201610211901]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.chromium.debug.jsdtbridge [0.5.200.v201610211901]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.chromium.debug.ui [0.6.200.v201701261810]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.chromium.wip.eclipse [0.5.200.v201610212001]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.chromium.wipbackend.dev [0.5.200.v201610212001]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.chromium.wipbackend.protocol_1_0 [0.5.200.v201610212001]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.core [2.0.302.v201804042202]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.debug.core [3.2.200.v201610211901]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.debug.crossfire [1.0.500.v201505071819]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.debug.rhino [1.0.500.v201605251607]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.debug.rhino.debugger [1.0.600.v201604292217]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.debug.transport [1.0.300.v201502261613]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.debug.ui [1.0.600.v201605311817]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.doc [2.0.200.v201710302345]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.feature.feature.group [2.1.1.v201804042202]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.feature.feature.jar [2.1.1.v201804042202]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.js.bower [1.0.200.v201610220243]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.js.cli [1.0.0.v201605192332]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.js.common [1.0.200.v201610211901]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.js.grunt [1.0.200.v201610211901]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.js.gulp [1.0.200.v201610211901]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.js.node [1.1.100.v201705091354]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.js.node.common [1.0.0.v201605131737]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.js.npm [1.0.300.v201711211802]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.manipulation [1.0.601.v201602241911]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.nodejs.feature.feature.group [1.1.0.v201803202007]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.nodejs.feature.feature.jar [1.1.0.v201803202007]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.support.firefox [1.0.501.v201602241911]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.support.ie [1.0.601.v201602241911]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.ui [2.0.301.v201710051729]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.web.core [1.1.0.v201807090620]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.jsdt.web.ui [1.2.0.v201807090620]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.json.bower.core [1.0.0.v201711201732]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.json.bower.ui [1.0.100.v201807090620]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.json.core [1.1.0.v201804162113]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.json.eslint.core [1.0.0.v201711201732]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.json.eslint.ui [1.0.100.v201807090620]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.json.jshint.core [1.0.0.v201711201732]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.json.jshint.ui [1.0.100.v201807090620]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.json.npm.core [1.0.0.v201711201732]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.json.npm.ui [1.0.100.v201807090620]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.json.schemaprocessor [1.0.200.v201711201732]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.json.ui [1.0.200.v201807090620]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.json_core.feature.feature.group [1.1.3.v201807251925]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.json_core.feature.feature.jar [1.1.3.v201807251925]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.json_ui.feature.feature.group [1.1.3.v201807251925]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.json_ui.feature.feature.jar [1.1.3.v201807251925]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.server.core [1.10.0.v201803052214]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.server.discovery [1.3.100.v201805282004]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.server.ui [1.5.401.v201804051745]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.server.ui.doc.user [1.1.600.v201309182117]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.server.ui.infopop [1.1.200.v201309182117]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.server_core.feature.feature.group [3.3.700.v201803052214]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.server_core.feature.feature.jar [3.3.700.v201803052214]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.server_ui.feature.feature.group [3.3.700.v201805282004]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.server_ui.feature.feature.jar [3.3.700.v201805282004]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.server_userdoc.feature.feature.group [3.3.300.v201802152148]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.server_userdoc.feature.feature.jar [3.3.300.v201802152148]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.sse.core [1.2.100.v201807090620]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.sse.doc.user [1.2.0.v201802171654]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.sse.ui [1.5.0.v201807252207]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.sse.ui.infopop [1.0.300.v201711201733]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.standard.schemas [1.0.800.v201711201732]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.validation [1.2.701.v201707142105]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.validation.infopop [1.0.300.v201309101952]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.validation.ui [1.2.501.v201802151734]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.web [1.2.0.v201802171654]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.web.ui [1.2.0.v201802171744]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.web.ui.infopop [1.0.300.v201711222247]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.web_core.feature.feature.group [3.11.0.v201808220605]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.web_core.feature.feature.jar [3.11.0.v201808220605]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.web_ui.feature.feature.group [3.11.0.v201808220605]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.web_ui.feature.feature.jar [3.11.0.v201808220605]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.web_userdoc.feature.feature.group [3.11.0.v201807251925]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.web_userdoc.feature.feature.jar [3.11.0.v201807251925]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.webtools.doc.user [1.0.500.v201711201733]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.xml.core [1.2.100.v201808220605]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.xml.ui [1.2.100.v201807252207]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.xml.ui.infopop [1.0.400.v201711201733]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.xml_core.feature.feature.group [3.11.0.v201808220605]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.xml_core.feature.feature.jar [3.11.0.v201808220605]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.xml_ui.feature.feature.group [3.11.0.v201807252207]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.xml_ui.feature.feature.jar [3.11.0.v201807252207]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.xml_userdoc.feature.feature.group [3.10.0.v201804190136]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.xml_userdoc.feature.feature.jar [3.10.0.v201804190136]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.xmleditor.doc.user [1.1.0.v201802171654]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.xsd.core [1.2.0.v201802171838]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.xsd.ui [1.3.100.v201807090620]
+[2018-09-24 13:47:42] Installing org.eclipse.wst.xsdeditor.doc.user [1.0.800.v201711201733]
+[2018-09-24 13:47:42] Installing org.eclipse.xsd [2.15.0.v20180722-1116]
+[2018-09-24 13:47:42] Installing org.eclipse.xsd.edit [2.10.0.v20180706-1143]
+[2018-09-24 13:47:42] Installing org.eclipse.zest.core [1.5.300.201606061308]
+[2018-09-24 13:47:42] Installing org.eclipse.zest.layouts [1.1.300.201606061308]
+[2018-09-24 13:47:42] Installing org.jsoup [1.7.2.v201411291515]
+[2018-09-24 13:47:42] Installing org.mozilla.javascript [1.7.5.v201504281450]
+[2018-09-24 13:47:42] Installing org.sat4j.core [2.3.5.v201308161310]
+[2018-09-24 13:47:42] Installing org.sat4j.pb [2.3.5.v201404071733]
+[2018-09-24 13:47:42] Installing org.slf4j.api [1.7.2.v20121108-1250]
+[2018-09-24 13:47:42] Installing org.slf4j.impl.log4j12 [1.7.2.v20131105-2200]
+[2018-09-24 13:47:42] Installing org.tukaani.xz [1.8.0.v20180207-1613]
+[2018-09-24 13:47:42] Installing org.w3c.css.sac [1.3.1.v200903091627]
+[2018-09-24 13:47:42] Installing org.w3c.dom.events [3.0.0.draft20060413_v201105210656]
+[2018-09-24 13:47:42] Installing org.w3c.dom.smil [1.0.1.v200903091627]
+[2018-09-24 13:47:42] Installing org.w3c.dom.svg [1.1.0.v201011041433]
+[2018-09-24 13:47:42] Installing tooling.org.eclipse.update.feature.default [1.0.0]
+[2018-09-24 13:47:42] Installing tooling.osgi.bundle.default [1.0.0]
+[2018-09-24 13:47:42] Installing tooling.source.default [1.0.0]
+[2018-09-24 13:47:42] Installing toolingepp.package.php.application [4.9.0.20180917-1800]
+[2018-09-24 13:47:42] Installing toolingepp.package.php.config.win32.win32.x86_64 [4.9.0.20180917-1800]
+[2018-09-24 13:47:42] Installing toolingepp.package.php.configuration [4.9.0.20180917-1800]
+[2018-09-24 13:47:42] Installing toolingepp.package.php.executable.win32.win32.x86_64 [4.9.0.20180917-1800]
+[2018-09-24 13:47:42] Installing toolingepp.package.php.ini.win32.win32.x86_64 [4.9.0.20180917-1800]
+[2018-09-24 13:47:42] Installing toolingorg.eclipse.equinox.launcher [1.5.100.v20180827-1352]
+[2018-09-24 13:47:42] Installing toolingorg.eclipse.equinox.launcher.win32.win32.x86_64 [1.1.800.v20180827-1352]
+[2018-09-24 13:47:42] Installing toolingorg.eclipse.platform.configuration [1.0.0]
+[2018-09-24 13:47:42] Installing toolingorg.eclipse.platform.ide.application [4.9.0.I20180906-0745]
+[2018-09-24 13:47:42] Installing toolingorg.eclipse.platform.ide.config.win32.win32.x86_64 [4.9.0.I20180906-0745]
+[2018-09-24 13:47:42] Installing toolingorg.eclipse.platform.ide.configuration [4.9.0.I20180906-0745]
+[2018-09-24 13:47:42] Installing toolingorg.eclipse.platform.ide.executable.win32.win32.x86_64 [4.9.0.I20180906-0745]
+[2018-09-24 13:47:42] Installing toolingorg.eclipse.platform.ide.ini.win32.win32.x86_64 [4.9.0.I20180906-0745]
+[2018-09-24 13:47:42] Installing toolingwin32.win32.x86_64org.eclipse.core.runtime [4.9.0.I20180906-0745]
+[2018-09-24 13:47:42] Installing toolingwin32.win32.x86_64org.eclipse.equinox.common [4.9.0.I20180906-0745]
+[2018-09-24 13:47:42] Installing toolingwin32.win32.x86_64org.eclipse.equinox.ds [4.9.0.I20180906-0745]
+[2018-09-24 13:47:42] Installing toolingwin32.win32.x86_64org.eclipse.equinox.event [4.9.0.I20180906-0745]
+[2018-09-24 13:47:42] Installing toolingwin32.win32.x86_64org.eclipse.equinox.p2.reconciler.dropins [4.9.0.I20180906-0745]
+[2018-09-24 13:47:42] Installing toolingwin32.win32.x86_64org.eclipse.equinox.simpleconfigurator [4.9.0.I20180906-0745]
+[2018-09-24 13:47:42] Preparing to commit the provisioning operation.
+[2018-09-24 13:47:42] Committing the provisioning operation.
+[2018-09-24 13:47:44] Performing Eclipse Ini --launcher.appendVmargs
+[2018-09-24 13:47:44] Performing Eclipse Ini -vm C:\Program Files\Java\jre1.8.0_181\bin
+[2018-09-24 13:47:44] Changing C:\Users\slam1\eclipse\php-2018-09\eclipse\eclipse.ini (-vm C:\Program Files\Java\jre1.8.0_181\bin)
+[2018-09-24 13:47:44] Performing Eclipse Ini -Declipse.p2.max.threads=10
+[2018-09-24 13:47:44] Changing C:\Users\slam1\eclipse\php-2018-09\eclipse\eclipse.ini (-Declipse.p2.max.threads=10)
+[2018-09-24 13:47:44] Performing Eclipse Ini -Doomph.update.url=http://download.eclipse.org/oomph/updates/milestone/latest
+[2018-09-24 13:47:44] Changing C:\Users\slam1\eclipse\php-2018-09\eclipse\eclipse.ini (-Doomph.update.url=http://download.eclipse.org/oomph/updates/milestone/latest)
+[2018-09-24 13:47:44] Performing Eclipse Ini -Doomph.redirection.index.redirection=index:/->http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/
+[2018-09-24 13:47:44] Changing C:\Users\slam1\eclipse\php-2018-09\eclipse\eclipse.ini (-Doomph.redirection.index.redirection=index:/->http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/)
+[2018-09-24 13:47:44] Performing post bootstrap tasks
+[2018-09-24 13:47:44] 
